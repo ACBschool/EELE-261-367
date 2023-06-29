@@ -1,0 +1,22 @@
+Quartus Prime Archive log --	C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_8p2_design_reuse_and_binary_chars_part1/Lab_08p2_design_reuse_and_binary_chars_part1_tmp_archive.qarlog
+
+Archive:	C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_8p2_design_reuse_and_binary_chars_part1/Lab_08p2_design_reuse_and_binary_chars_part1_tmp_archive.qar
+Date:		Sun May 22 20:38:10 2022
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_8p2_design_reuse_and_binary_chars_part1/Lab_08p2_design_reuse_and_binary_chars_part1.qpf
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_8p2_design_reuse_and_binary_chars_part1/assignment_defaults.qdf
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_8p2_design_reuse_and_binary_chars_part1/char_decoder.vhd
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_8p2_design_reuse_and_binary_chars_part1/top.qsf
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_8p2_design_reuse_and_binary_chars_part1/top.vhd
+	======= Total: 5 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Sun May 22 20:38:12 2022
+Source archive file:	C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_8p2_design_reuse_and_binary_chars_part1/Lab_08p2_design_reuse_and_binary_chars_part1_tmp_archive.qar
+Archive was extracted into	C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p1_ripple_counter/
+		 - successfully.

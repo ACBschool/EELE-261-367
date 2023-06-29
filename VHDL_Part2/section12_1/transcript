@@ -1,0 +1,16 @@
+vsim work.rca_8bit_tb
+# vsim work.rca_8bit_tb 
+# Start time: 22:16:22 on Jun 17,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rca_8bit_tb(rca_8bit_tb_arch)
+# Loading work.rca_8bit(rca_8bit_arch)
+# Loading work.full_adder(full_adder_arch)
+# Loading work.half_adder(half_adder_arch)
+add wave sim:/rca_8bit_tb/*
+run
+quit -sim
+# End time: 22:19:28 on Jun 17,2022, Elapsed time: 0:03:06
+# Errors: 0, Warnings: 1

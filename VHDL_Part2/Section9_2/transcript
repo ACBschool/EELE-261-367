@@ -1,0 +1,22 @@
+vsim work.fsm_tb
+# vsim work.fsm_tb 
+# Start time: 20:06:24 on May 22,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.fsm_tb(fsm_tb_arch)
+# Loading work.fsm(fsm_arch)
+add wave sim:/fsm_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: austi  Hostname: DESKTOP-KGBUCUP  ProcessID: 1640
+#           Attempting to use alternate WLF file "./wlftjasdwe".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftjasdwe
+run
+add wave -r /*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+quit -sim
+# End time: 20:07:28 on May 22,2022, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 1

@@ -1,0 +1,26 @@
+Quartus Prime Archive log --	C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_10p1_ROM_memory/Lab_10p1_ROM_memory_tmp_archive.qarlog
+
+Archive:	C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_10p1_ROM_memory/Lab_10p1_ROM_memory_tmp_archive.qar
+Date:		Sat Jun 18 20:06:56 2022
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_10p1_ROM_memory/Lab_10p1_ROM_memory.qpf
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_10p1_ROM_memory/assignment_defaults.qdf
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_10p1_ROM_memory/char_decoder.vhd
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_10p1_ROM_memory/clock_div_2ton.vhd
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_10p1_ROM_memory/clock_div_prec.vhd
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_10p1_ROM_memory/dflipflop.vhd
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_10p1_ROM_memory/rom_64x8_sync.vhd
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_10p1_ROM_memory/top.qsf
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_10p1_ROM_memory/top.vhd
+	======= Total: 9 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Sat Jun 18 20:06:58 2022
+Source archive file:	C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_10p1_ROM_memory/Lab_10p1_ROM_memory_tmp_archive.qar
+Archive was extracted into	C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_12p1_Unsigned_Binary_Adder/
+		 - successfully.

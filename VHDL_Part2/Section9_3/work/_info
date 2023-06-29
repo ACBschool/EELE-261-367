@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+Efsm2_behavioral
+Z0 w1653455061
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 9
+Z3 dC:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_3
+Z4 8C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_3/fsm2_behavioral.vhd
+Z5 FC:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_3/fsm2_behavioral.vhd
+l0
+L4 1
+VmfVE8U^mA7dGX9RPY9?BP0
+!s100 kHaQcm5A]@I5T@``nYa5I3
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1653455078
+!i10b 1
+Z8 !s108 1653455078.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_3/fsm2_behavioral.vhd|
+Z10 !s107 C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_3/fsm2_behavioral.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Afsm2_behavioral_arch
+R1
+R2
+Z13 DEx4 work 15 fsm2_behavioral 0 22 mfVE8U^mA7dGX9RPY9?BP0
+!i122 9
+l19
+L13 72
+V2H?>gVTW_95k^k0UKcfUc0
+!s100 LM03NzK?@Q@bE[k9IJ:Jk3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efsm2_behavioral_tb
+Z14 w1653431378
+R1
+R2
+!i122 0
+R3
+Z15 8C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_3/fsm2_behavioral_TB.vhd
+Z16 FC:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_3/fsm2_behavioral_TB.vhd
+l0
+L4 1
+VUi;]6LOkN]cZnFm5S7?N:1
+!s100 <K5Z07`JDT>ZL[oP:[jk32
+R6
+32
+Z17 !s110 1653431473
+!i10b 1
+Z18 !s108 1653431473.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_3/fsm2_behavioral_TB.vhd|
+Z20 !s107 C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_3/fsm2_behavioral_TB.vhd|
+!i113 1
+R11
+R12
+Afsm2_behavioral_tb_arch
+R1
+R2
+DEx4 work 18 fsm2_behavioral_tb 0 22 Ui;]6LOkN]cZnFm5S7?N:1
+!i122 0
+l23
+L7 53
+VLFnkF4=]IH<NlA[z8RZNP2
+!s100 F4O4F>=2fUbM?n7bi4HHA2
+R6
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12

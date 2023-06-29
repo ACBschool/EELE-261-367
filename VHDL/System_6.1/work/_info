@@ -1,0 +1,85 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+Edecoder_1hot_4to16
+Z0 w1603848983
+!i122 3
+Z1 dC:/Users/austi/Desktop/VHDL/System_6.1
+Z2 8C:/Users/austi/Desktop/VHDL/System_6.1/decoder_1hot_4to16.vhd
+Z3 FC:/Users/austi/Desktop/VHDL/System_6.1/decoder_1hot_4to16.vhd
+l0
+L1 1
+V>Fz7XOD?_:XH3CM_ib6`S2
+!s100 =`0FZ>;K^e>MEE[VgGERo3
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1603848989
+!i10b 1
+Z6 !s108 1603848989.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/Desktop/VHDL/System_6.1/decoder_1hot_4to16.vhd|
+!s107 C:/Users/austi/Desktop/VHDL/System_6.1/decoder_1hot_4to16.vhd|
+!i113 1
+Z8 o-work work -2002 -explicit
+Z9 tExplicit 1 CvgOpt 0
+Adecoder_1hot_4to16_arch
+DEx4 work 18 decoder_1hot_4to16 0 22 >Fz7XOD?_:XH3CM_ib6`S2
+!i122 3
+l7
+L6 19
+V6YeL<5fEEh?V9XVJz1XDB1
+!s100 2J2B5Z7fmZY@a4g5E9=771
+R4
+32
+R5
+!i10b 1
+R6
+R7
+Z10 !s107 C:/Users/austi/Desktop/VHDL/System_6.1/decoder_1hot_4to16.vhd|
+!i113 1
+R8
+R9
+Edecoder_1hot_4to16_tb
+Z11 w1603848934
+!i122 2
+R1
+Z12 8C:/Users/austi/Desktop/VHDL/System_6.1/decoder_1hot_4to16_TB.vhd
+Z13 FC:/Users/austi/Desktop/VHDL/System_6.1/decoder_1hot_4to16_TB.vhd
+l0
+L1 1
+VRZY95nRQ<T3XKD5JS5`H82
+!s100 [ZVDReNLhMCDUMncg7`Jk2
+R4
+32
+Z14 !s110 1603848939
+!i10b 1
+Z15 !s108 1603848939.000000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/Desktop/VHDL/System_6.1/decoder_1hot_4to16_TB.vhd|
+Z17 !s107 C:/Users/austi/Desktop/VHDL/System_6.1/decoder_1hot_4to16_TB.vhd|
+!i113 1
+R8
+R9
+Adecoder_1hot_4to16_tb_arch
+DEx4 work 21 decoder_1hot_4to16_tb 0 22 RZY95nRQ<T3XKD5JS5`H82
+!i122 2
+l19
+L4 46
+VO60lWMI9GLGCD`JAWLWVB3
+!s100 e=W`dLQHPX^9Tf;B;bU9h1
+R4
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R8
+R9

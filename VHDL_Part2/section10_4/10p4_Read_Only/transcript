@@ -1,0 +1,54 @@
+# Compile of rom_4x4_async_TB.vhd failed with 1 errors.
+# Compile of rom_4x4_async_TB.vhd failed with 6 errors.
+# Compile of rom_4x4_async_TB.vhd was successful.
+# Compile of rom_4x4_async.vhd was successful.
+# Compile of rom_4x4_async.vhd was successful.
+vsim work.rom_4x4_async_tb
+# vsim work.rom_4x4_async_tb 
+# Start time: 09:00:53 on Jun 09,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.rom_4x4_async_tb(rom_4x4_async_tb_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.rom_4x4_async(rom_4x4_async_arch)
+add wave sim:/rom_4x4_async_tb/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /rom_4x4_async_tb/DUT
+quit -sim
+# End time: 09:05:34 on Jun 09,2022, Elapsed time: 0:04:41
+# Errors: 0, Warnings: 11
+# Compile of rom_4x4_async_TB.vhd was successful.
+# Compile of rom_4x4_async.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of rom_4x4_async.vhd was successful.
+vsim work.rom_4x4_async_tb
+# vsim work.rom_4x4_async_tb 
+# Start time: 09:10:25 on Jun 09,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.rom_4x4_async_tb(rom_4x4_async_tb_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.rom_4x4_async(rom_4x4_async_arch)
+add wave sim:/rom_4x4_async_tb/*
+run
+quit -sim
+# End time: 09:11:16 on Jun 09,2022, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 3
+# Compile of rom_4x4_async_TB.vhd was successful.
+vsim work.rom_4x4_async_tb
+# vsim work.rom_4x4_async_tb 
+# Start time: 09:11:40 on Jun 09,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.rom_4x4_async_tb(rom_4x4_async_tb_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.rom_4x4_async(rom_4x4_async_arch)
+add wave sim:/rom_4x4_async_tb/*
+run
+quit -sim
+# End time: 09:12:41 on Jun 09,2022, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 2

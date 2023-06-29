@@ -1,0 +1,17 @@
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/DFF_TB.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\austi\OneDrive\Desktop\VHDL_Part2\DFF_TB.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity DFF_TB
+-- Compiling architecture DFF_TB_arch of DFF_TB
+
+} {} {}} C:/Users/austi/OneDrive/Desktop/VHDL_Part2/DFF.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\austi\OneDrive\Desktop\VHDL_Part2\DFF.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity DFF
+-- Compiling architecture DFF_arch of DFF
+
+} {} {}}

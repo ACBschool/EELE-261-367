@@ -1,0 +1,21 @@
+Quartus Prime Archive log --	C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_08p1_7segment_decoder_using_process/Lab_08p1_7segment_decoder_using_process_tmp_archive.qarlog
+
+Archive:	C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_08p1_7segment_decoder_using_process/Lab_08p1_7segment_decoder_using_process_tmp_archive.qar
+Date:		Thu May 19 13:54:15 2022
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_08p1_7segment_decoder_using_process/Lab_08p1_7segment_decoder_using_process.qpf
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_08p1_7segment_decoder_using_process/top.qsf
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_08p1_7segment_decoder_using_process/top.vhd
+c:/intelfpga_lite/20.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 4 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Thu May 19 13:54:16 2022
+Source archive file:	C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_08p1_7segment_decoder_using_process/Lab_08p1_7segment_decoder_using_process_tmp_archive.qar
+Archive was extracted into	C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_8p2_design_reuse_and_binary_chars_part1/
+		 - successfully.

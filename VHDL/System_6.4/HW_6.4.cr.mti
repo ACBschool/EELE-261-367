@@ -1,0 +1,13 @@
+C:/Users/austi/Desktop/VHDL/System_6.4/demux_1to8.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/austi/Desktop/VHDL/System_6.4/demux_1to8.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity demux_1to8
+-- Compiling architecture demux_1to8_arch of demux_1to8
+
+} {} {}} C:/Users/austi/Desktop/VHDL/System_6.4/demux_1to8_TB.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/austi/Desktop/VHDL/System_6.4/demux_1to8_TB.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity demux_1to8_TB
+-- Compiling architecture demux_1to8_TB_arch of demux_1to8_TB
+
+} {} {}}

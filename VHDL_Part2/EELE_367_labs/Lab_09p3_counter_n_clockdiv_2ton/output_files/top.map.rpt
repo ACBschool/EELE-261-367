@@ -1,0 +1,647 @@
+Analysis & Synthesis report for top
+Sat May 28 21:36:54 2022
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Inverted Register Statistics
+ 10. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D25"
+ 11. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D24"
+ 12. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D23"
+ 13. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D22"
+ 14. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D21"
+ 15. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D20"
+ 16. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D19"
+ 17. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D18"
+ 18. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D17"
+ 19. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D16"
+ 20. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D15"
+ 21. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D14"
+ 22. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D13"
+ 23. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D12"
+ 24. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D11"
+ 25. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D10"
+ 26. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D9"
+ 27. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D8"
+ 28. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D7"
+ 29. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D6"
+ 30. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D5"
+ 31. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D4"
+ 32. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D3"
+ 33. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D2"
+ 34. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D1"
+ 35. Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D0"
+ 36. Post-Synthesis Netlist Statistics for Top Partition
+ 37. Elapsed Time Per Partition
+ 38. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Sat May 28 21:36:54 2022       ;
+; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                      ; top                                         ;
+; Top-level Entity Name              ; top                                         ;
+; Family                             ; MAX 10                                      ;
+; Total logic elements               ; 94                                          ;
+;     Total combinational functions  ; 94                                          ;
+;     Dedicated logic registers      ; 49                                          ;
+; Total registers                    ; 49                                          ;
+; Total pins                         ; 66                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
+; UFM blocks                         ; 0                                           ;
+; ADC blocks                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; 10M50DAF484C6GES   ;                    ;
+; Top-level entity name                                            ; top                ; top                ;
+; Family name                                                      ; MAX 10             ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 4           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processors 3-4         ;   0.0%      ;
++----------------------------+-------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                        ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                 ; Library ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------+---------+
+; top.vhd                          ; yes             ; User VHDL File  ; C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/top.vhd            ;         ;
+; char_decoder.vhd                 ; yes             ; User VHDL File  ; C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/char_decoder.vhd   ;         ;
+; dflipflop.vhd                    ; yes             ; User VHDL File  ; C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/dflipflop.vhd      ;         ;
+; clock_div_2ton.vhd               ; yes             ; User VHDL File  ; C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/clock_div_2ton.vhd ;         ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------+---------+
+
+
++-----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary               ;
++---------------------------------------------+-------------+
+; Resource                                    ; Usage       ;
++---------------------------------------------+-------------+
+; Estimated Total logic elements              ; 94          ;
+;                                             ;             ;
+; Total combinational functions               ; 94          ;
+; Logic element usage by number of LUT inputs ;             ;
+;     -- 4 input functions                    ; 42          ;
+;     -- 3 input functions                    ; 4           ;
+;     -- <=2 input functions                  ; 48          ;
+;                                             ;             ;
+; Logic elements by mode                      ;             ;
+;     -- normal mode                          ; 72          ;
+;     -- arithmetic mode                      ; 22          ;
+;                                             ;             ;
+; Total registers                             ; 49          ;
+;     -- Dedicated logic registers            ; 49          ;
+;     -- I/O registers                        ; 0           ;
+;                                             ;             ;
+; I/O pins                                    ; 66          ;
+;                                             ;             ;
+; Embedded Multiplier 9-bit elements          ; 0           ;
+;                                             ;             ;
+; Maximum fan-out node                        ; Reset~input ;
+; Maximum fan-out                             ; 49          ;
+; Total fan-out                               ; 522         ;
+; Average fan-out                             ; 1.90        ;
++---------------------------------------------+-------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                     ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------------------+----------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                   ; Entity Name    ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------------------+----------------+--------------+
+; |top                       ; 94 (24)             ; 49 (24)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 66   ; 0            ; 0          ; |top                                  ; top            ; work         ;
+;    |char_decoder:C0|       ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|char_decoder:C0                  ; char_decoder   ; work         ;
+;    |char_decoder:C1|       ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|char_decoder:C1                  ; char_decoder   ; work         ;
+;    |char_decoder:C2|       ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|char_decoder:C2                  ; char_decoder   ; work         ;
+;    |char_decoder:C3|       ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|char_decoder:C3                  ; char_decoder   ; work         ;
+;    |char_decoder:C4|       ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|char_decoder:C4                  ; char_decoder   ; work         ;
+;    |char_decoder:C5|       ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|char_decoder:C5                  ; char_decoder   ; work         ;
+;    |clock_div_2ton:CLK|    ; 28 (3)              ; 25 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK               ; clock_div_2ton ; work         ;
+;       |dflipflop:D0|       ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D0  ; dflipflop      ; work         ;
+;       |dflipflop:D10|      ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D10 ; dflipflop      ; work         ;
+;       |dflipflop:D11|      ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D11 ; dflipflop      ; work         ;
+;       |dflipflop:D12|      ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D12 ; dflipflop      ; work         ;
+;       |dflipflop:D13|      ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D13 ; dflipflop      ; work         ;
+;       |dflipflop:D14|      ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D14 ; dflipflop      ; work         ;
+;       |dflipflop:D15|      ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D15 ; dflipflop      ; work         ;
+;       |dflipflop:D16|      ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D16 ; dflipflop      ; work         ;
+;       |dflipflop:D17|      ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D17 ; dflipflop      ; work         ;
+;       |dflipflop:D18|      ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D18 ; dflipflop      ; work         ;
+;       |dflipflop:D19|      ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D19 ; dflipflop      ; work         ;
+;       |dflipflop:D1|       ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D1  ; dflipflop      ; work         ;
+;       |dflipflop:D20|      ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D20 ; dflipflop      ; work         ;
+;       |dflipflop:D21|      ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D21 ; dflipflop      ; work         ;
+;       |dflipflop:D22|      ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D22 ; dflipflop      ; work         ;
+;       |dflipflop:D23|      ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D23 ; dflipflop      ; work         ;
+;       |dflipflop:D24|      ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D24 ; dflipflop      ; work         ;
+;       |dflipflop:D2|       ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D2  ; dflipflop      ; work         ;
+;       |dflipflop:D3|       ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D3  ; dflipflop      ; work         ;
+;       |dflipflop:D4|       ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D4  ; dflipflop      ; work         ;
+;       |dflipflop:D5|       ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D5  ; dflipflop      ; work         ;
+;       |dflipflop:D6|       ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D6  ; dflipflop      ; work         ;
+;       |dflipflop:D7|       ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D7  ; dflipflop      ; work         ;
+;       |dflipflop:D8|       ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D8  ; dflipflop      ; work         ;
+;       |dflipflop:D9|       ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|clock_div_2ton:CLK|dflipflop:D9  ; dflipflop      ; work         ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------------------+----------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 49    ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 49    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++---------------------------------------------------+
+; Inverted Register Statistics                      ;
++-----------------------------------------+---------+
+; Inverted Register                       ; Fan out ;
++-----------------------------------------+---------+
+; clock_div_2ton:CLK|dflipflop:D0|Qn      ; 3       ;
+; clock_div_2ton:CLK|dflipflop:D17|Qn     ; 3       ;
+; clock_div_2ton:CLK|dflipflop:D22|Qn     ; 3       ;
+; clock_div_2ton:CLK|dflipflop:D24|Qn     ; 2       ;
+; clock_div_2ton:CLK|dflipflop:D16|Qn     ; 2       ;
+; clock_div_2ton:CLK|dflipflop:D21|Qn     ; 2       ;
+; clock_div_2ton:CLK|dflipflop:D23|Qn     ; 2       ;
+; clock_div_2ton:CLK|dflipflop:D15|Qn     ; 2       ;
+; clock_div_2ton:CLK|dflipflop:D20|Qn     ; 2       ;
+; clock_div_2ton:CLK|dflipflop:D14|Qn     ; 2       ;
+; clock_div_2ton:CLK|dflipflop:D19|Qn     ; 2       ;
+; clock_div_2ton:CLK|dflipflop:D13|Qn     ; 2       ;
+; clock_div_2ton:CLK|dflipflop:D18|Qn     ; 2       ;
+; clock_div_2ton:CLK|dflipflop:D12|Qn     ; 2       ;
+; clock_div_2ton:CLK|dflipflop:D11|Qn     ; 2       ;
+; clock_div_2ton:CLK|dflipflop:D10|Qn     ; 2       ;
+; clock_div_2ton:CLK|dflipflop:D9|Qn      ; 2       ;
+; clock_div_2ton:CLK|dflipflop:D8|Qn      ; 2       ;
+; clock_div_2ton:CLK|dflipflop:D7|Qn      ; 2       ;
+; clock_div_2ton:CLK|dflipflop:D6|Qn      ; 2       ;
+; clock_div_2ton:CLK|dflipflop:D5|Qn      ; 2       ;
+; clock_div_2ton:CLK|dflipflop:D4|Qn      ; 2       ;
+; clock_div_2ton:CLK|dflipflop:D3|Qn      ; 2       ;
+; clock_div_2ton:CLK|dflipflop:D2|Qn      ; 2       ;
+; clock_div_2ton:CLK|dflipflop:D1|Qn      ; 2       ;
+; Total number of inverted registers = 25 ;         ;
++-----------------------------------------+---------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D25"                                                   ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D24"                                                   ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D23"                                                   ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D22"                                                   ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D21"                                                   ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D20"                                                   ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D19"                                                   ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D18"                                                   ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D17"                                                   ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D16"                                                   ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D15"                                                   ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D14"                                                   ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D13"                                                   ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D12"                                                   ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D11"                                                   ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D10"                                                   ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D9"                                                    ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D8"                                                    ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D7"                                                    ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D6"                                                    ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D5"                                                    ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D4"                                                    ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D3"                                                    ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D2"                                                    ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D1"                                                    ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_div_2ton:CLK|dflipflop:D0"                                                    ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 66                          ;
+; cycloneiii_ff         ; 49                          ;
+;     CLR               ; 49                          ;
+; cycloneiii_lcell_comb ; 100                         ;
+;     arith             ; 22                          ;
+;         2 data inputs ; 21                          ;
+;         3 data inputs ; 1                           ;
+;     normal            ; 78                          ;
+;         1 data inputs ; 33                          ;
+;         3 data inputs ; 3                           ;
+;         4 data inputs ; 42                          ;
+;                       ;                             ;
+; Max LUT depth         ; 3.20                        ;
+; Average LUT depth     ; 1.71                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Sat May 28 21:36:44 2022
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Lab_09p3_counter_n_clockdiv_2ton -c top
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file top.vhd
+    Info (12022): Found design unit 1: top-top_arch File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/top.vhd Line: 21
+    Info (12023): Found entity 1: top File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/top.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file char_decoder.vhd
+    Info (12022): Found design unit 1: char_decoder-char_decoder_arch File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/char_decoder.vhd Line: 10
+    Info (12023): Found entity 1: char_decoder File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/char_decoder.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file dflipflop.vhd
+    Info (12022): Found design unit 1: dflipflop-dflipflop_arch File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/dflipflop.vhd Line: 10
+    Info (12023): Found entity 1: dflipflop File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/dflipflop.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file clock_div_2ton.vhd
+    Info (12022): Found design unit 1: clock_div_2ton-clock_div_2ton_arch File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/clock_div_2ton.vhd Line: 12
+    Info (12023): Found entity 1: clock_div_2ton File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/clock_div_2ton.vhd Line: 4
+Info (12127): Elaborating entity "top" for the top level hierarchy
+Info (12128): Elaborating entity "clock_div_2ton" for hierarchy "clock_div_2ton:CLK" File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/top.vhd Line: 80
+Warning (10036): Verilog HDL or VHDL warning at clock_div_2ton.vhd(26): object "CNT" assigned a value but never read File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/clock_div_2ton.vhd Line: 26
+Warning (10492): VHDL Process Statement warning at clock_div_2ton.vhd(89): signal "CNTn" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/clock_div_2ton.vhd Line: 89
+Warning (10492): VHDL Process Statement warning at clock_div_2ton.vhd(90): signal "CNTn" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/clock_div_2ton.vhd Line: 90
+Warning (10492): VHDL Process Statement warning at clock_div_2ton.vhd(91): signal "CNTn" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/clock_div_2ton.vhd Line: 91
+Warning (10492): VHDL Process Statement warning at clock_div_2ton.vhd(92): signal "CNTn" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/clock_div_2ton.vhd Line: 92
+Info (12128): Elaborating entity "dflipflop" for hierarchy "clock_div_2ton:CLK|dflipflop:D0" File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/clock_div_2ton.vhd Line: 42
+Info (12128): Elaborating entity "char_decoder" for hierarchy "char_decoder:C0" File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/top.vhd Line: 92
+Warning (19016): Clock multiplexers are found and protected
+    Warning (19017): Found clock multiplexer clock_div_2ton:CLK|Mux0 File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/clock_div_2ton.vhd Line: 88
+Info (13000): Registers with preset signals will power-up high File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/dflipflop.vhd Line: 6
+Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 2 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "SW[2]" File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/top.vhd Line: 9
+    Warning (15610): No output dependent on input pin "SW[3]" File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/top.vhd Line: 9
+Info (21057): Implemented 160 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 6 input pins
+    Info (21059): Implemented 60 output pins
+    Info (21061): Implemented 94 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 11 warnings
+    Info: Peak virtual memory: 4797 megabytes
+    Info: Processing ended: Sat May 28 21:36:54 2022
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:23
+
+

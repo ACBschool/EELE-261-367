@@ -1,0 +1,40 @@
+# Compile of UpDown.vhd failed with 16 errors.
+# Compile of UpDown.vhd failed with 14 errors.
+# Compile of UpDown.vhd failed with 1 errors.
+# Compile of UpDown.vhd failed with 5 errors.
+# Compile of UpDown.vhd was successful.
+# Compile of UpDown.vhd was successful.
+# Compile of UpDown_TB.vhd failed with 7 errors.
+# Compile of UpDown_TB.vhd failed with 5 errors.
+# Compile of UpDown_TB.vhd failed with 1 errors.
+# Compile of UpDown_TB.vhd was successful.
+vsim work.updown_tb
+# vsim work.updown_tb 
+# Start time: 01:04:35 on May 24,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.updown_tb(updown_tb_arch)
+# Loading work.updown(updown_arch)
+add wave -r /*
+run
+quit -sim
+# End time: 01:06:20 on May 24,2022, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 17
+# Compile of UpDown_TB.vhd failed with 3 errors.
+# Compile of UpDown_TB.vhd was successful.
+vsim work.updown_tb
+# vsim work.updown_tb 
+# Start time: 01:08:23 on May 24,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.updown_tb(updown_tb_arch)
+# Loading work.updown(updown_arch)
+add wave sim:/updown_tb/*
+add wave -r /*
+run
+quit -sim
+# End time: 01:10:09 on May 24,2022, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 3
+# Compile of UpDown_TB.vhd was successful.

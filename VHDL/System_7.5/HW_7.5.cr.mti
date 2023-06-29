@@ -1,0 +1,19 @@
+C:/Users/austi/Desktop/VHDL/System_7.5/counter_3bit_binary_up_down.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/austi/Desktop/VHDL/System_7.5/counter_3bit_binary_up_down.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity counter_3bit_binary_up_down
+-- Compiling architecture counter_3bit_binary_up_down_arch of counter_3bit_binary_up_down
+
+} {} {}} C:/Users/austi/Desktop/VHDL/System_7.5/dflipflop.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/austi/Desktop/VHDL/System_7.5/dflipflop.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity Dflipflop
+-- Compiling architecture Dflipflop_arch of Dflipflop
+
+} {} {}} C:/Users/austi/Desktop/VHDL/System_7.5/counter_3bit_binary_up_down_TB.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/austi/Desktop/VHDL/System_7.5/counter_3bit_binary_up_down_TB.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity counter_3bit_binary_up_down_TB
+-- Compiling architecture counter_3bit_binary_up_down_TB_arch of counter_3bit_binary_up_down_TB
+
+} {} {}}

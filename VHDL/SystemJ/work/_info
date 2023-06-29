@@ -1,0 +1,85 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/austi/Desktop/VHDL/SystemI
+Esystemj
+Z0 w1602881118
+!i122 0
+Z1 dC:/Users/austi/Desktop/VHDL/SystemJ
+Z2 8C:/Users/austi/Desktop/VHDL/SystemJ/SystemJ.vhd
+Z3 FC:/Users/austi/Desktop/VHDL/SystemJ/SystemJ.vhd
+l0
+L1 1
+V@WFV<LCjMIX7M]NEj?[9G1
+!s100 dLD:D8U64^7c_M[:>:aen3
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1602881121
+!i10b 1
+Z6 !s108 1602881121.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/Desktop/VHDL/SystemJ/SystemJ.vhd|
+Z8 !s107 C:/Users/austi/Desktop/VHDL/SystemJ/SystemJ.vhd|
+!i113 1
+Z9 o-work work -2002 -explicit
+Z10 tExplicit 1 CvgOpt 0
+Asystemj_arch
+DEx4 work 7 systemj 0 22 @WFV<LCjMIX7M]NEj?[9G1
+!i122 0
+l10
+L8 13
+VR6Eb[f`T>^YDSIBYbZ@6e1
+!s100 IM=I2IAdcmMkk3Q1l63a]0
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Esystemj_tb
+Z11 w1602880702
+!i122 1
+R1
+Z12 8C:/Users/austi/Desktop/VHDL/SystemJ/SystemJ_TB.vhd
+Z13 FC:/Users/austi/Desktop/VHDL/SystemJ/SystemJ_TB.vhd
+l0
+L1 1
+V?eo;KiJ=>bZo`h;n5ln8P1
+!s100 WjVk?4XiKFd]0z:_[2>8C0
+R4
+32
+Z14 !s110 1602881125
+!i10b 1
+Z15 !s108 1602881125.000000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/Desktop/VHDL/SystemJ/SystemJ_TB.vhd|
+!s107 C:/Users/austi/Desktop/VHDL/SystemJ/SystemJ_TB.vhd|
+!i113 1
+R9
+R10
+Asystemj_tb_arch
+DEx4 work 10 systemj_tb 0 22 ?eo;KiJ=>bZo`h;n5ln8P1
+!i122 1
+l19
+L4 49
+VV12@zbcGG@^GdD56dZ8NF3
+!s100 ?@:_f;S`Ia92XKBG<TQ_V1
+R4
+32
+R14
+!i10b 1
+R15
+R16
+Z17 !s107 C:/Users/austi/Desktop/VHDL/SystemJ/SystemJ_TB.vhd|
+!i113 1
+R9
+R10

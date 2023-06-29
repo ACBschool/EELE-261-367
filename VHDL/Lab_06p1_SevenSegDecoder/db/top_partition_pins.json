@@ -1,0 +1,73 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LEDR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Prime",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

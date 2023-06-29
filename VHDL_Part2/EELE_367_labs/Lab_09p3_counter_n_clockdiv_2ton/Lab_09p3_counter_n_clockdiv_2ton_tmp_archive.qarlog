@@ -1,0 +1,24 @@
+Quartus Prime Archive log --	C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/Lab_09p3_counter_n_clockdiv_2ton_tmp_archive.qarlog
+
+Archive:	C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/Lab_09p3_counter_n_clockdiv_2ton_tmp_archive.qar
+Date:		Sat May 28 19:06:43 2022
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/Lab_09p3_counter_n_clockdiv_2ton.qpf
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/assignment_defaults.qdf
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/char_decoder.vhd
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/clock_div_2ton.vhd
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/dflipflop.vhd
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/top.qsf
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/top.vhd
+	======= Total: 7 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Sat May 28 19:06:45 2022
+Source archive file:	C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p3_counter_n_clockdiv_2ton/Lab_09p3_counter_n_clockdiv_2ton_tmp_archive.qar
+Archive was extracted into	C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p4_prec_clockdiv_n_bcd_counter/
+		 - successfully.

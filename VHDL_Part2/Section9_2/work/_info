@@ -1,0 +1,115 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+Efsm
+Z0 w1653187721
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 17
+Z3 dC:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_2
+Z4 8C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_2/FSM.vhd
+Z5 FC:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_2/FSM.vhd
+l0
+L4 1
+VLC;Te44@8i>Jc;Jh0OPQE1
+!s100 hz[?z2HJ=lc:Ec9lSW6=l1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1653188090
+!i10b 1
+Z8 !s108 1653188090.000000
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_2/FSM.vhd|
+Z10 !s107 C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_2/FSM.vhd|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Afsm_arch
+R1
+R2
+DEx4 work 3 fsm 0 22 LC;Te44@8i>Jc;Jh0OPQE1
+!i122 17
+l24
+L11 90
+V<jC`:^[ajOQzQVS@6Nm2m0
+!s100 ;WLMUzgB@aca;W;NOAmY51
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Afsm_tb
+w1653186732
+R1
+R2
+DEx4 work 3 fsm 0 22 UfPH=6Imed8<T@mI4Sahe2
+!i122 9
+Z13 8C:\Users\austi\OneDrive\Desktop\VHDL_Part2\Section9_2\FSM_TB.vhd
+Z14 FC:\Users\austi\OneDrive\Desktop\VHDL_Part2\Section9_2\FSM_TB.vhd
+l25
+Z15 L8 55
+VYGog2LzaNo37F1Moj?A`m2
+!s100 X`6fn]f6OcI?i>;PK[6f11
+R6
+32
+!s110 1653186737
+!i10b 1
+!s108 1653186737.000000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\austi\OneDrive\Desktop\VHDL_Part2\Section9_2\FSM_TB.vhd|
+Z17 !s107 C:\Users\austi\OneDrive\Desktop\VHDL_Part2\Section9_2\FSM_TB.vhd|
+!i113 1
+Z18 o-work work -2002 -explicit
+R12
+Efsm_tb
+Z19 w1653188054
+R1
+R2
+!i122 18
+R3
+Z20 8C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_2/FSM_TB.vhd
+Z21 FC:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_2/FSM_TB.vhd
+l0
+L4 1
+VUP<dLSa88ZiX5m4WnYNcB0
+!s100 _X<CeM3o=:Ja5bK7Q4mm31
+R6
+32
+Z22 !s110 1653188101
+!i10b 1
+Z23 !s108 1653188101.000000
+Z24 !s90 -reportprogress|300|-work|work|C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_2/FSM_TB.vhd|
+!s107 C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_2/FSM_TB.vhd|
+!i113 1
+R11
+R12
+Afsm_tb_arch
+R1
+R2
+DEx4 work 6 fsm_tb 0 22 UP<dLSa88ZiX5m4WnYNcB0
+!i122 18
+l24
+L8 54
+VXBfhDbK8J6=@GEcKl`Vj?1
+!s100 PdfRLV0iV]e36dc=zjDPm1
+R6
+32
+R22
+!i10b 1
+R23
+R24
+Z25 !s107 C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_2/FSM_TB.vhd|
+!i113 1
+R11
+R12

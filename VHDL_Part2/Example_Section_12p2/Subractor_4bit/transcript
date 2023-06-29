@@ -1,0 +1,212 @@
+# Compile of half_adder.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of sub_8bit.vhd was successful.
+# Compile of sub_8bit_TB.vhd was successful.
+# Compile of sub_8bit_TB.vhd was successful.
+vsim work.sub_8bit_tb
+# vsim work.sub_8bit_tb 
+# Start time: 07:45:52 on Jun 18,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.sub_8bit_tb(sub_8bit_tb_arch)
+# Loading work.sub_8bit(sub_8bit_arch)
+# Loading work.full_adder(full_adder_arch)
+# Loading work.half_adder(half_adder_arch)
+add wave sim:/sub_8bit_tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 07:48:46 on Jun 18,2022, Elapsed time: 0:02:54
+# Errors: 0, Warnings: 11
+# reading C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project Subtract_Add
+# Compile of full_adder.vhd was successful.
+# Compile of half_adder.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of Sub_add_4bit.vhd failed with 1 errors.
+# Compile of Sub_add_4bit.vhd failed with 1 errors.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example_Section_12p2/Adder_Subtractor_4bit/Subtract_Add.mpf).  File can not be renamed.
+# Compile of Sub_add_4bit.vhd failed with 1 errors.
+# reading C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project Programmable_Adder
+# Compile of Sub_add_4bit.vhd failed with 1 errors.
+# Compile of Sub_add_4bit.vhd was successful.
+# ** Error: Acs sdne.
+# D
+#        Unable to replace existing ini file (C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example_Section_12p2/Adder_Subtractor_4bit/Programmable_Adder.mpf).  File can not be renamed.
+# Compile of full_adder.vhd was successful.
+# Compile of half_adder.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of Sub_add_4bit_TB.vhd failed with 3 errors.
+# Compile of Sub_add_4bit_TB.vhd was successful.
+# Compile of Sub_add_4bit.vhd was successful.
+# Compile of Sub_add_4bit_TB.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of half_adder.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.sub_add_4bit_tb
+# vsim work.sub_add_4bit_tb 
+# Start time: 08:04:33 on Jun 18,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.sub_add_4bit_tb(sub_add_4bit_tb_arch)
+# Loading work.sub_add_4bit(sub_add_4bit_arch)
+# Loading work.full_adder(full_adder_arch)
+# Loading work.half_adder(half_adder_arch)
+quit -sim
+# End time: 08:04:58 on Jun 18,2022, Elapsed time: 0:00:25
+# Errors: 2, Warnings: 22
+# Compile of Sub_add_4bit.vhd was successful.
+# Compile of Sub_add_4bit_TB.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of half_adder.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.sub_add_4bit_tb
+# vsim work.sub_add_4bit_tb 
+# Start time: 08:05:39 on Jun 18,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.sub_add_4bit_tb(sub_add_4bit_tb_arch)
+# Loading work.sub_add_4bit(sub_add_4bit_arch)
+# Loading work.full_adder(full_adder_arch)
+# Loading work.half_adder(half_adder_arch)
+add wave sim:/sub_add_4bit_tb/*
+run
+quit -sim
+# End time: 08:07:02 on Jun 18,2022, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 2
+# Compile of Sub_add_4bit_TB.vhd was successful.
+vsim work.sub_add_4bit_tb
+# vsim work.sub_add_4bit_tb 
+# Start time: 08:09:31 on Jun 18,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.sub_add_4bit_tb(sub_add_4bit_tb_arch)
+# Loading work.sub_add_4bit(sub_add_4bit_arch)
+# Loading work.full_adder(full_adder_arch)
+# Loading work.half_adder(half_adder_arch)
+add wave sim:/sub_add_4bit_tb/*
+run
+quit -sim
+# End time: 08:12:36 on Jun 18,2022, Elapsed time: 0:03:05
+# Errors: 0, Warnings: 2
+# reading C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini
+project open C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example_Section_12p2/Adder_Subtractor_4bit/Programmable_Adder
+# Loading project Programmable_Adder
+# Compile of Sub_add_4bit.vhd failed with 2 errors.
+# Compile of Sub_add_4bit.vhd was successful.
+# Compile of Sub_add_4bit_TB.vhd was successful.
+vsim work.sub_add_4bit_tb
+# vsim work.sub_add_4bit_tb 
+# Start time: 17:32:25 on Jun 18,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.sub_add_4bit_tb(sub_add_4bit_tb_arch)
+# Loading work.sub_add_4bit(sub_add_4bit_arch)
+# Loading work.full_adder(full_adder_arch)
+# Loading work.half_adder(half_adder_arch)
+add wave sim:/sub_add_4bit_tb/*
+run
+quit -sim
+# End time: 17:34:15 on Jun 18,2022, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 4
+# Compile of Sub_add_4bit.vhd failed with 2 errors.
+# Compile of Sub_add_4bit_TB.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of half_adder.vhd was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of Sub_add_4bit.vhd failed with 1 errors.
+# Compile of Sub_add_4bit.vhd was successful.
+vsim work.sub_add_4bit_tb
+# vsim work.sub_add_4bit_tb 
+# Start time: 17:39:34 on Jun 18,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.sub_add_4bit_tb(sub_add_4bit_tb_arch)
+# Loading work.sub_add_4bit(sub_add_4bit_arch)
+# Loading work.full_adder(full_adder_arch)
+# Loading work.half_adder(half_adder_arch)
+add wave sim:/sub_add_4bit_tb/*
+run
+quit -sim
+# End time: 17:41:21 on Jun 18,2022, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 4
+vsim work.sub_add_4bit_tb
+# vsim work.sub_add_4bit_tb 
+# Start time: 17:51:35 on Jun 18,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.sub_add_4bit_tb(sub_add_4bit_tb_arch)
+# Loading work.sub_add_4bit(sub_add_4bit_arch)
+# Loading work.full_adder(full_adder_arch)
+# Loading work.half_adder(half_adder_arch)
+add wave sim:/sub_add_4bit_tb/*
+run
+run
+run
+run
+run
+quit -sim
+# End time: 17:57:11 on Jun 18,2022, Elapsed time: 0:05:36
+# Errors: 0, Warnings: 1
+# Compile of Sub_add_4bit.vhd failed with 1 errors.
+# Compile of Sub_add_4bit.vhd was successful.
+vsim work.sub_add_4bit_tb
+# vsim work.sub_add_4bit_tb 
+# Start time: 18:04:48 on Jun 18,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.sub_add_4bit_tb(sub_add_4bit_tb_arch)
+# Loading work.sub_add_4bit(sub_add_4bit_arch)
+# Loading work.full_adder(full_adder_arch)
+# Loading work.half_adder(half_adder_arch)
+vsim work.sub_add_4bit_tb
+# End time: 18:04:53 on Jun 18,2022, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 3
+# vsim work.sub_add_4bit_tb 
+# Start time: 18:04:53 on Jun 18,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.sub_add_4bit_tb(sub_add_4bit_tb_arch)
+# Loading work.sub_add_4bit(sub_add_4bit_arch)
+# Loading work.full_adder(full_adder_arch)
+# Loading work.half_adder(half_adder_arch)
+add wave sim:/sub_add_4bit_tb/*
+run
+run
+run
+quit -sim
+# End time: 18:11:47 on Jun 18,2022, Elapsed time: 0:06:54
+# Errors: 0, Warnings: 1
+# reading C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project HW_12p2

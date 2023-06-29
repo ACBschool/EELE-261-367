@@ -1,0 +1,45 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;			-- allows for arithmetic.
+
+entity Counter_16bit_UpDown is
+	port (Clock, Reset : in  std_logic;
+              Up           : in  std_logic;	-- directionality of counter
+              Count_Out    : out std_logic_vector(15 downto 0));
+end entity;
+
+architecture Counter_16bit_UpDown_arch of Counter_16bit_UpDown is
+
+-- counter Temp variable of type integer to do arithmetic for counter functionality in one process.
+signal CNT : integer;
+
+
+begin
+	
+	COUNTER : process (Clock, Reset)		-- what triggers the counter
+		-- use temp variable within process 
+		begin
+			if (Reset = '0') then			-- reset functionality is always most important
+				CNT <= 0;			
+			elsif (rising_edge(Clock)) then		-- trigger on rising edge of clock
+				if (Up = '1') then		-- increment directionality
+					if (CNT = 65535) then	-- integer value for 16 bits, handles positive rollover
+						CNT <= 0;
+					else 			-- otherwise increment
+					   	CNT <= CNT + 1;
+					end if;
+				elsif (Up = '0') then		-- decrement directionality
+					if(CNT = 0) then	--handles negative rollover
+						CNT <= 65535;
+					else 
+						CNT <= CNT - 1;	-- otherwise decrement
+					end if;
+				end if;
+			end if;
+	end process;
+
+	-- used to contiuously assign the temp variable to the output of the system.
+	Count_Out <= std_logic_vector(To_unsigned(CNT, 16));		-- no direct conversion from integer to std_logic_vector
+
+
+end architecture;

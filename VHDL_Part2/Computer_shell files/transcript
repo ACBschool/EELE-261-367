@@ -1,0 +1,39 @@
+vsim work.computer_tb
+# vsim work.computer_tb 
+# Start time: 18:34:54 on Jul 16,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.computer_tb(computer_tb_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.computer(computer_arch)
+# Loading work.cpu(cpu_arch)
+# Loading work.control_unit(control_unit_arch)
+# Loading work.data_path(data_path_arch)
+# Loading work.alu(alu_arch)
+# Loading work.memory(memory_arch)
+# Loading work.rom_128x8_sync(rom_128x8_sync_arch)
+# Loading work.rw_96x8_sync(rw_96x8_sync_arch)
+do C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Computer_project/Computer_macro_wave.do
+run
+# ** Note: 8-Bit Microcomputer System Test Bench Initiating...
+#    Time: 0 ps  Iteration: 0  Instance: /computer_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /computer_tb/DUT1/MEMORY_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /computer_tb/DUT1/MEMORY_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /computer_tb/DUT1/MEMORY_inst/RW_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /computer_tb/DUT1/MEMORY_inst/ROM_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /computer_tb/DUT1/MEMORY_inst/ROM_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /computer_tb/DUT1/MEMORY_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /computer_tb/DUT1/MEMORY_inst
+quit -sim
+# End time: 18:35:31 on Jul 16,2022, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 26
+# reading C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini
+quit

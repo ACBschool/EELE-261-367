@@ -1,0 +1,95 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+Erw_4x4_sync
+Z0 w1654788936
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 7
+Z4 dC:/Users/austi/OneDrive/Desktop/VHDL_Part2/section10_4/10p4_RW
+Z5 8C:/Users/austi/OneDrive/Desktop/VHDL_Part2/section10_4/10p4_RW/rw_4x4_sync.vhd
+Z6 FC:/Users/austi/OneDrive/Desktop/VHDL_Part2/section10_4/10p4_RW/rw_4x4_sync.vhd
+l0
+L5 1
+V9h1Q2:^TDQgIN5eom@A5S2
+!s100 Ma@TkViVf]@4Fm2iZJ>BQ0
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1654788954
+!i10b 1
+Z9 !s108 1654788954.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/OneDrive/Desktop/VHDL_Part2/section10_4/10p4_RW/rw_4x4_sync.vhd|
+Z11 !s107 C:/Users/austi/OneDrive/Desktop/VHDL_Part2/section10_4/10p4_RW/rw_4x4_sync.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Arw_4x4_sync_arch
+R1
+R2
+R3
+Z14 DEx4 work 11 rw_4x4_sync 0 22 9h1Q2:^TDQgIN5eom@A5S2
+!i122 7
+l23
+L14 28
+Vmn]_JhPjUVBWe711a3L?f1
+!s100 HkQ`5VHoEgBJm1R38mRlF2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Erw_4x4_sync_tb
+Z15 w1654788430
+R2
+R3
+!i122 6
+R4
+Z16 8C:/Users/austi/OneDrive/Desktop/VHDL_Part2/section10_4/10p4_RW/rw_4x4_sync_TB.vhd
+Z17 FC:/Users/austi/OneDrive/Desktop/VHDL_Part2/section10_4/10p4_RW/rw_4x4_sync_TB.vhd
+l0
+L5 1
+VR=3bBOUZ7FTSH?lLJ`_K>3
+!s100 gS1^<U@6]HoGZo@z5J`X:3
+R7
+32
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/OneDrive/Desktop/VHDL_Part2/section10_4/10p4_RW/rw_4x4_sync_TB.vhd|
+Z19 !s107 C:/Users/austi/OneDrive/Desktop/VHDL_Part2/section10_4/10p4_RW/rw_4x4_sync_TB.vhd|
+!i113 1
+R12
+R13
+Arw_4x4_sync_tb_arch
+R2
+R3
+DEx4 work 14 rw_4x4_sync_tb 0 22 R=3bBOUZ7FTSH?lLJ`_K>3
+!i122 6
+l26
+L8 39
+V04f_mRz=geQXhh=[_oGim2
+!s100 jhnmhdOCiAJ;:??hF:7l_3
+R7
+32
+R8
+!i10b 1
+R9
+R18
+R19
+!i113 1
+R12
+R13

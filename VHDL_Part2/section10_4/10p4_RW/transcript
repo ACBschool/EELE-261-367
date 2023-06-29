@@ -1,0 +1,30 @@
+# Compile of rw_4x4_sync_TB.vhd failed with 4 errors.
+# Compile of rw_4x4_sync_TB.vhd failed with 1 errors.
+# Compile of rw_4x4_sync_TB.vhd was successful.
+# Compile of rw_4x4_sync_TB.vhd was successful.
+# Compile of rw_4x4_sync.vhd was successful.
+# Compile of rw_4x4_sync.vhd was successful.
+# Compile of rw_4x4_sync_TB.vhd was successful.
+# Compile of rw_4x4_sync.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.rw_4x4_sync_tb
+# vsim work.rw_4x4_sync_tb 
+# Start time: 09:35:59 on Jun 09,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.rw_4x4_sync_tb(rw_4x4_sync_tb_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.rw_4x4_sync(rw_4x4_sync_arch)
+add wave sim:/rw_4x4_sync_tb/*
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+quit -sim
+# End time: 09:43:47 on Jun 09,2022, Elapsed time: 0:07:48
+# Errors: 0, Warnings: 1

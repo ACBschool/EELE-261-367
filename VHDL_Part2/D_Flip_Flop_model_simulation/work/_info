@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+Edff
+Z0 w1653104155
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 10
+Z3 dC:/Users/austi/OneDrive/Desktop/VHDL_Part2
+Z4 8C:\Users\austi\OneDrive\Desktop\VHDL_Part2\DFF.vhd
+Z5 FC:\Users\austi\OneDrive\Desktop\VHDL_Part2\DFF.vhd
+l0
+L4 1
+Va<hQY4O7gB92L=T;SX1WY3
+!s100 @T2bmU9c?6>X>XM@I]18R1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1653104168
+!i10b 1
+Z8 !s108 1653104168.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\austi\OneDrive\Desktop\VHDL_Part2\DFF.vhd|
+Z10 !s107 C:\Users\austi\OneDrive\Desktop\VHDL_Part2\DFF.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Adff_arch
+R1
+R2
+DEx4 work 3 dff 0 22 a<hQY4O7gB92L=T;SX1WY3
+!i122 10
+l13
+L10 17
+V:n7e4XT?O?R5KF;YR:o<S1
+!s100 bjWZHmendLL[VXW_9CbZ<3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edff_tb
+Z13 w1653104753
+R1
+R2
+!i122 14
+R3
+Z14 8C:\Users\austi\OneDrive\Desktop\VHDL_Part2\DFF_TB.vhd
+Z15 FC:\Users\austi\OneDrive\Desktop\VHDL_Part2\DFF_TB.vhd
+l0
+L5 1
+VF9i_Q6dDXUX4fQ4`1jNKj1
+!s100 h6ggATl0oQ^9j<zOUlbeK0
+R6
+32
+Z16 !s110 1653104766
+!i10b 1
+Z17 !s108 1653104765.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\austi\OneDrive\Desktop\VHDL_Part2\DFF_TB.vhd|
+Z19 !s107 C:\Users\austi\OneDrive\Desktop\VHDL_Part2\DFF_TB.vhd|
+!i113 1
+R11
+R12
+Adff_tb_arch
+R1
+R2
+Z20 DEx4 work 6 dff_tb 0 22 F9i_Q6dDXUX4fQ4`1jNKj1
+!i122 14
+l21
+Z21 L9 54
+V<HkT9Ff7UmJYPBJ;UToDX1
+!s100 8[YF?:Ym7VoI_3m[?GAoi0
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12

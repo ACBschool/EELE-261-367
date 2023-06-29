@@ -1,0 +1,396 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section12_2
+Ealu
+Z0 w1658465583
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 166
+Z4 dC:/Users/austi/OneDrive/Desktop/VHDL_Part2/Computer_project
+Z5 8C:\Users\austi\OneDrive\Desktop\VHDL_Part2\Computer_project\alu.vhd
+Z6 FC:\Users\austi\OneDrive\Desktop\VHDL_Part2\Computer_project\alu.vhd
+l0
+L6 1
+Vm1h[HGX:H8^EZ675Bmk5l0
+!s100 S1jm=T8ijVW1:XhcbALmQ1
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1658540454
+!i10b 1
+Z9 !s108 1658540454.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\austi\OneDrive\Desktop\VHDL_Part2\Computer_project\alu.vhd|
+Z11 !s107 C:\Users\austi\OneDrive\Desktop\VHDL_Part2\Computer_project\alu.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aalu_arch
+R1
+R2
+R3
+DEx4 work 3 alu 0 22 m1h[HGX:H8^EZ675Bmk5l0
+!i122 166
+l19
+L15 238
+V>Bz2_aDD_iE5T[?zoeM]_2
+!s100 PImED9Gz3kK1XGMFDY0Z91
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecomputer
+Z14 w1657422099
+R1
+R2
+R3
+!i122 162
+R4
+Z15 8C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Computer_project/computer.vhd
+Z16 FC:/Users/austi/OneDrive/Desktop/VHDL_Part2/Computer_project/computer.vhd
+l0
+L7 1
+V:k0Y3n]<=_0AEW1HJCg^z2
+!s100 g[^eP<`Z9;LWnL6z0AaLJ1
+R7
+32
+Z17 !s110 1658540453
+!i10b 1
+Z18 !s108 1658540453.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Computer_project/computer.vhd|
+Z20 !s107 C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Computer_project/computer.vhd|
+!i113 1
+R12
+R13
+Acomputer_arch
+R1
+R2
+R3
+DEx4 work 8 computer 0 22 :k0Y3n]<=_0AEW1HJCg^z2
+!i122 162
+l105
+L45 116
+VWH<aF>0]nnDST4VNbZ:@C1
+!s100 ;[XiEb2]m2AVkXYE82Yh02
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Ecomputer_tb
+Z21 w1657409378
+R2
+R3
+!i122 170
+R4
+Z22 8C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Computer_project/computer_TB.vhd
+Z23 FC:/Users/austi/OneDrive/Desktop/VHDL_Part2/Computer_project/computer_TB.vhd
+l0
+L16 1
+VP8`Cj6HU18Y??ADo`SBn12
+!s100 d<6MW?j?c1l3>1fVM:nej0
+R7
+32
+R8
+!i10b 1
+R9
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Computer_project/computer_TB.vhd|
+Z25 !s107 C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Computer_project/computer_TB.vhd|
+!i113 1
+R12
+R13
+Acomputer_tb_arch
+R2
+R3
+DEx4 work 11 computer_tb 0 22 P8`Cj6HU18Y??ADo`SBn12
+!i122 170
+l99
+L19 160
+V8<LZ4HJc>956FV5g<?8SJ1
+!s100 Q9]]@:lLki;cHNHdi[:6D0
+R7
+32
+R8
+!i10b 1
+R9
+R24
+R25
+!i113 1
+R12
+R13
+Econtrol_unit
+Z26 w1658540348
+R1
+R2
+R3
+!i122 164
+R4
+Z27 8C:\Users\austi\OneDrive\Desktop\VHDL_Part2\Computer_project\control_unit.vhd
+Z28 FC:\Users\austi\OneDrive\Desktop\VHDL_Part2\Computer_project\control_unit.vhd
+l0
+L6 1
+V<P:1jDdR9ShclAZWeQX0>1
+!s100 H4C[O2GFfHU;W;L78?Y3H0
+R7
+32
+R17
+!i10b 1
+R18
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\austi\OneDrive\Desktop\VHDL_Part2\Computer_project\control_unit.vhd|
+Z30 !s107 C:\Users\austi\OneDrive\Desktop\VHDL_Part2\Computer_project\control_unit.vhd|
+!i113 1
+R12
+R13
+Acontrol_unit_arch
+R1
+R2
+R3
+DEx4 work 12 control_unit 0 22 <P:1jDdR9ShclAZWeQX0>1
+!i122 164
+l81
+L25 946
+VP:<eYHRK8L1Ri=Ac[GH0n2
+!s100 j4>=NO3Ie?NXI^SVSd[PX1
+R7
+32
+R8
+!i10b 1
+R18
+R29
+R30
+!i113 1
+R12
+R13
+Ecpu
+Z31 w1657858893
+R1
+R2
+R3
+!i122 163
+R4
+Z32 8C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Computer_project/cpu.vhd
+Z33 FC:/Users/austi/OneDrive/Desktop/VHDL_Part2/Computer_project/cpu.vhd
+l0
+L6 1
+VcZY2Z1Q64<PmhW6YKN1RD3
+!s100 ?9h<;`SF?z3K?G2C]:>lj0
+R7
+32
+R17
+!i10b 1
+R18
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Computer_project/cpu.vhd|
+Z35 !s107 C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Computer_project/cpu.vhd|
+!i113 1
+R12
+R13
+Acpu_arch
+R1
+R2
+R3
+DEx4 work 3 cpu 0 22 cZY2Z1Q64<PmhW6YKN1RD3
+!i122 163
+l70
+L16 98
+VHNkK^Adik_O_5J6C:o6Ph0
+!s100 FeJ@:Ga?d]GjJJ@fELIF`1
+R7
+32
+R17
+!i10b 1
+R18
+R34
+R35
+!i113 1
+R12
+R13
+Edata_path
+Z36 w1658460191
+R1
+R2
+R3
+!i122 165
+R4
+Z37 8C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Computer_project/data_path.vhd
+Z38 FC:/Users/austi/OneDrive/Desktop/VHDL_Part2/Computer_project/data_path.vhd
+l0
+L6 1
+V_<_P=d?YHO^e<gX77T?Pz0
+!s100 _[^`Jec6nE:d:_:5b4<<;1
+R7
+32
+R8
+!i10b 1
+R9
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Computer_project/data_path.vhd|
+Z40 !s107 C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Computer_project/data_path.vhd|
+!i113 1
+R12
+R13
+Adata_path_arch
+R1
+R2
+R3
+DEx4 work 9 data_path 0 22 _<_P=d?YHO^e<gX77T?Pz0
+!i122 165
+l47
+L28 146
+VokEhc;<ZmX=K7Qei_1Hm80
+!s100 ed2lA?a;UOCzKcFLU7B6C1
+R7
+32
+R8
+!i10b 1
+R9
+R39
+R40
+!i113 1
+R12
+R13
+Ememory
+Z41 w1657844984
+R1
+R2
+R3
+!i122 167
+R4
+Z42 8C:\Users\austi\OneDrive\Desktop\VHDL_Part2\Computer_project\memory.vhd
+Z43 FC:\Users\austi\OneDrive\Desktop\VHDL_Part2\Computer_project\memory.vhd
+l0
+L5 1
+VDSe5Ka:o0L?io?aQ984c^3
+!s100 n03VY7YJ@WK<[86j@E=I]2
+R7
+32
+R8
+!i10b 1
+R9
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\austi\OneDrive\Desktop\VHDL_Part2\Computer_project\memory.vhd|
+Z45 !s107 C:\Users\austi\OneDrive\Desktop\VHDL_Part2\Computer_project\memory.vhd|
+!i113 1
+R12
+R13
+Amemory_arch
+R1
+R2
+R3
+DEx4 work 6 memory 0 22 DSe5Ka:o0L?io?aQ984c^3
+!i122 167
+l69
+L48 275
+VHHKOldE6GbT=[FgOMoioN2
+!s100 UiYfZ6[DF0NBUk0?C8iV@3
+R7
+32
+R8
+!i10b 1
+R9
+R44
+R45
+!i113 1
+R12
+R13
+Erom_128x8_sync
+Z46 w1658541005
+R1
+R2
+R3
+!i122 172
+R4
+Z47 8C:\Users\austi\OneDrive\Desktop\VHDL_Part2\Computer_project\rom_128x8_sync.vhd
+Z48 FC:\Users\austi\OneDrive\Desktop\VHDL_Part2\Computer_project\rom_128x8_sync.vhd
+l0
+L6 1
+V^m0M1b2FERS4f7;nQbLFH0
+!s100 Mj2SiW9`B8T`B5gzHN::g0
+R7
+32
+Z49 !s110 1658541037
+!i10b 1
+Z50 !s108 1658541037.000000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\austi\OneDrive\Desktop\VHDL_Part2\Computer_project\rom_128x8_sync.vhd|
+Z52 !s107 C:\Users\austi\OneDrive\Desktop\VHDL_Part2\Computer_project\rom_128x8_sync.vhd|
+!i113 1
+R12
+R13
+Arom_128x8_sync_arch
+R1
+R2
+R3
+Z53 DEx4 work 14 rom_128x8_sync 0 22 ^m0M1b2FERS4f7;nQbLFH0
+!i122 172
+l56
+Z54 L14 70
+Z55 VjB259<?f[ckhLPgzLehL82
+Z56 !s100 e[[2`Te05Hh4?Y^dKKcnT0
+R7
+32
+R49
+!i10b 1
+R50
+R51
+R52
+!i113 1
+R12
+R13
+Erw_96x8_sync
+Z57 w1657843366
+R1
+R2
+R3
+!i122 169
+R4
+Z58 8C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Computer_project/rw_96x8_sync.vhd
+Z59 FC:/Users/austi/OneDrive/Desktop/VHDL_Part2/Computer_project/rw_96x8_sync.vhd
+l0
+L5 1
+VA3dn4bY[U@kibm0f9P[@E3
+!s100 @Lk5FYmSVg]Cdo_:ZZnaY1
+R7
+32
+R8
+!i10b 1
+R9
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Computer_project/rw_96x8_sync.vhd|
+Z61 !s107 C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Computer_project/rw_96x8_sync.vhd|
+!i113 1
+R12
+R13
+Arw_96x8_sync_arch
+R1
+R2
+R3
+DEx4 work 12 rw_96x8_sync 0 22 A3dn4bY[U@kibm0f9P[@E3
+!i122 169
+l26
+L15 42
+V9>oTMlN?@oI3@Z[^GPX8i1
+!s100 3Pi7K8S@d4i<=fMP@:HTa2
+R7
+32
+R8
+!i10b 1
+R9
+R60
+R61
+!i113 1
+R12
+R13

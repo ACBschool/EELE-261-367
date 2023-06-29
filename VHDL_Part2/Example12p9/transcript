@@ -1,0 +1,16 @@
+vsim work.rca_4bit_tb
+# vsim work.rca_4bit_tb 
+# Start time: 07:12:59 on Jun 18,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rca_4bit_tb(rca_4bit_tb_arch)
+# Loading work.rca_4bit(rca_4bit_arch)
+# Loading work.full_adder(full_adder_arch)
+# Loading work.half_adder(half_adder_arch)
+add wave sim:/rca_4bit_tb/*
+run
+quit -sim
+# End time: 07:14:25 on Jun 18,2022, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 1

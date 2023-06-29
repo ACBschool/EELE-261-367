@@ -1,0 +1,177 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section12_2
+Efull_adder
+Z0 w1655528693
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 8
+Z3 dC:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example12p9
+Z4 8C:/Users/austi/OneDrive/Desktop/VHDL_Part2/section12_1/full_adder.vhd
+Z5 FC:/Users/austi/OneDrive/Desktop/VHDL_Part2/section12_1/full_adder.vhd
+l0
+L4 1
+VgK`2Fkhej[eXa3[Z]_Emn3
+!s100 KABlKCO0jc=m5JiaJdif=1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1655528705
+!i10b 1
+Z8 !s108 1655528705.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/OneDrive/Desktop/VHDL_Part2/section12_1/full_adder.vhd|
+Z10 !s107 C:/Users/austi/OneDrive/Desktop/VHDL_Part2/section12_1/full_adder.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Afull_adder_arch
+R1
+R2
+DEx4 work 10 full_adder 0 22 gK`2Fkhej[eXa3[Z]_Emn3
+!i122 8
+l19
+L9 20
+V1kOo_eRE?nWUEZ5z5XzDG1
+!s100 6BfF9W>B4if@mYEUl1oDD0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ehalf_adder
+Z13 w1655528588
+R1
+R2
+!i122 9
+R3
+Z14 8C:/Users/austi/OneDrive/Desktop/VHDL_Part2/section12_1/half_adder.vhd
+Z15 FC:/Users/austi/OneDrive/Desktop/VHDL_Part2/section12_1/half_adder.vhd
+l0
+L4 1
+V1K[`m5]NHUHc:UJTWm<`J3
+!s100 CjkAHF0?BOCSk]hzRU4ji1
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/OneDrive/Desktop/VHDL_Part2/section12_1/half_adder.vhd|
+Z17 !s107 C:/Users/austi/OneDrive/Desktop/VHDL_Part2/section12_1/half_adder.vhd|
+!i113 1
+R11
+R12
+Ahalf_adder_arch
+R1
+R2
+DEx4 work 10 half_adder 0 22 1K[`m5]NHUHc:UJTWm<`J3
+!i122 9
+l12
+L9 10
+VBFMdilaj600Xi8h277Hbl1
+!s100 ;Sg?hl1:Hi5;UHY[Vm[UL3
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Erca_4bit
+Z18 w1655528256
+R1
+R2
+!i122 10
+R3
+Z19 8C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example12p9/rca_4bit.vhd
+Z20 FC:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example12p9/rca_4bit.vhd
+l0
+L4 1
+VIEGNZ8R1iVjMglOYdh3DI2
+!s100 zL;6Bma^lz`^G6kT_@ab91
+R6
+32
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example12p9/rca_4bit.vhd|
+Z22 !s107 C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example12p9/rca_4bit.vhd|
+!i113 1
+R11
+R12
+Arca_4bit_arch
+R1
+R2
+DEx4 work 8 rca_4bit 0 22 IEGNZ8R1iVjMglOYdh3DI2
+!i122 10
+l19
+L10 19
+VbT_@MEa?I0U8f4dEZ<H[21
+!s100 g;KgQbkj^JSRCOSA5dVHB2
+R6
+32
+R7
+!i10b 1
+R8
+R21
+R22
+!i113 1
+R11
+R12
+Erca_4bit_tb
+Z23 w1655528543
+Z24 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+!i122 11
+R3
+Z25 8C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example12p9/rca_4bit_TB.vhd
+Z26 FC:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example12p9/rca_4bit_TB.vhd
+l0
+L5 1
+Vf5zaFfM=2fI3BY33^En;R1
+!s100 cz]YDh5VfVl4@VC2_YEH]3
+R6
+32
+Z27 !s110 1655528706
+!i10b 1
+Z28 !s108 1655528706.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example12p9/rca_4bit_TB.vhd|
+Z30 !s107 C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example12p9/rca_4bit_TB.vhd|
+!i113 1
+R11
+R12
+Arca_4bit_tb_arch
+R24
+R1
+R2
+Z31 DEx4 work 11 rca_4bit_tb 0 22 f5zaFfM=2fI3BY33^En;R1
+!i122 11
+l20
+Z32 L8 48
+Z33 V7n[1n3@_<@Yd:72O4?>o:2
+Z34 !s100 @FBo_Poe[m?XM?T8AGBdB0
+R6
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R11
+R12

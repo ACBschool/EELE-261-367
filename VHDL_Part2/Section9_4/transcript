@@ -1,0 +1,38 @@
+# Error opening C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_4/Counter)16bit_UpDown.vhd
+# Path name 'C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_4/Counter)16bit_UpDown.vhd' doesn't exist.
+# Compile of Counter_16bit_UpDown_TB.vhd was successful.
+# Compile of Counter_16bit_UpDown.vhd was successful.
+vsim work.counter_16bit_updown_tb
+# vsim work.counter_16bit_updown_tb 
+# Start time: 20:47:31 on May 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.counter_16bit_updown_tb(counter_16bit_updown_tb_arch)
+# Loading work.counter_16bit_updown(counter_16bit_updown_arch)
+add wave sim:/counter_16bit_updown_tb/*
+run
+# ** Error: (vsim-86) Argument value -2147483648 is not in bounds of subtype NATURAL.
+#    Time: 0 ps  Iteration: 0  Instance: /counter_16bit_updown_tb/DUT
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Error: (vsim-86) Argument value -2147483648 is not in bounds of subtype NATURAL.
+#    Time: 0 ps  Iteration: 0  Instance: /counter_16bit_updown_tb/DUT
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Error: (vsim-86) Argument value -2147483648 is not in bounds of subtype NATURAL.
+#    Time: 0 ps  Iteration: 0  Instance: /counter_16bit_updown_tb/DUT
+# Break key hit
+quit -sim
+# End time: 20:55:08 on May 27,2022, Elapsed time: 0:07:37
+# Errors: 1, Warnings: 1
+# Compile of Counter_16bit_UpDown.vhd was successful.

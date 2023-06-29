@@ -1,0 +1,75 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_textio.all;
+
+library STD;
+use STD.textio.all;
+
+entity SystemL_TB is
+end entity;
+
+architecture SystemL_TB_arch of SystemL_TB is
+
+   -- process wait time
+   constant t_wait : time := 100 ns;
+
+   --systemL inclusion in test bench
+   component SystemL
+	port(ABCD   : in std_logic_vector(3 downto 0);
+	     F	    : out std_logic);
+   end component;
+
+   --test bench signals
+   signal ABCD_TB : std_logic_vector(3 downto 0);
+   signal F_TB : std_logic;
+
+begin
+
+   --system instantiation
+   DUT : SystemL port map (ABCD => ABCD_TB , F => F_TB);
+
+   --Stimulus process as defined via input file
+   STIMULUS : process
+      
+	
+	-- file declaration
+	file Fin : TEXT open READ_MODE is "input_vectors.txt";
+	
+	-- line variable declaration
+	variable current_read_line : line;
+	variable current_read_field : std_logic_vector(3 downto 0);
+	variable current_write_line : line;
+
+       begin
+
+	while ( not endfile(Fin)) loop
+
+
+	   -- get a line from input file		
+	   readline(Fin, current_read_line);
+	   -- assign using appropriate datatypes
+	   read(current_read_line, current_read_field);
+
+	   --assign converted line variable to test bench input system	
+	   ABCD_TB <= current_read_field; wait for t_wait;
+
+	   -- write to output
+	   write(current_write_line, string'("Input Vector : ABCD_TB ="));
+	   write(current_write_line, ABCD_TB);
+	   write(current_write_line, string'(" "));
+
+	   write(current_write_line, string'("DUT Output: F_TB ="));
+	   write(current_write_line, F_TB);
+	   writeline(OUTPUT, current_write_line);
+
+	end loop;
+
+	wait;
+
+   end process;
+
+
+end architecture;
+
+
+

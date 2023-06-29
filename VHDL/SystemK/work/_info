@@ -1,0 +1,85 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/austi/Desktop/VHDL/SystemJ
+Esystemk
+Z0 w1602879354
+!i122 3
+Z1 dC:/Users/austi/Desktop/VHDL/SystemK
+Z2 8C:/Users/austi/Desktop/VHDL/SystemK/SystemK.vhd
+Z3 FC:/Users/austi/Desktop/VHDL/SystemK/SystemK.vhd
+l0
+L1 1
+VQ?WJoa^NSjbY2j<C5B6I03
+!s100 oh[;1oC_QzSCIXMW4ZVlO0
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1602879369
+!i10b 1
+Z6 !s108 1602879369.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/Desktop/VHDL/SystemK/SystemK.vhd|
+Z8 !s107 C:/Users/austi/Desktop/VHDL/SystemK/SystemK.vhd|
+!i113 1
+Z9 o-work work -2002 -explicit
+Z10 tExplicit 1 CvgOpt 0
+Asystemk_arch
+Z11 DEx4 work 7 systemk 0 22 Q?WJoa^NSjbY2j<C5B6I03
+!i122 3
+l11
+Z12 L7 13
+Z13 V<HmmmL[2cLI]D>bFGj_aH3
+Z14 !s100 O=l5]faH4=47N=j[L<EVI3
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Esystemk_tb
+Z15 w1602878857
+!i122 2
+R1
+Z16 8C:/Users/austi/Desktop/VHDL/SystemK/SystemK_TB.vhd
+Z17 FC:/Users/austi/Desktop/VHDL/SystemK/SystemK_TB.vhd
+l0
+L1 1
+VBO[HAI_=@Fn5i6[aYCG?C3
+!s100 [HoMJ2OCI]O<hZ0>bEhW33
+R4
+32
+Z18 !s110 1602879366
+!i10b 1
+Z19 !s108 1602879366.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/Desktop/VHDL/SystemK/SystemK_TB.vhd|
+Z21 !s107 C:/Users/austi/Desktop/VHDL/SystemK/SystemK_TB.vhd|
+!i113 1
+R9
+R10
+Asystemk_tb_arch
+DEx4 work 10 systemk_tb 0 22 BO[HAI_=@Fn5i6[aYCG?C3
+!i122 2
+l19
+L4 49
+V1[Uc<a=FEB6:D;9FNZm481
+!s100 5G@Ib3bcX=JoX=j7Hj`E13
+R4
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R9
+R10

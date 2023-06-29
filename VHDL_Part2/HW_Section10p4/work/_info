@@ -1,0 +1,95 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+Erom_16x8_sync
+Z0 w1654802753
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 3
+Z4 dC:/Users/austi/OneDrive/Desktop/VHDL_Part2/HW_Section10p4
+Z5 8C:/Users/austi/OneDrive/Desktop/VHDL_Part2/HW_Section10p4/rom_16x8_sync.vhd
+Z6 FC:/Users/austi/OneDrive/Desktop/VHDL_Part2/HW_Section10p4/rom_16x8_sync.vhd
+l0
+L5 1
+VXDahWdN8TFMNQ84DJ`Oim2
+!s100 ?PlT__ojC;E9lVQd1E`HG1
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1654802757
+!i10b 1
+Z9 !s108 1654802757.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/OneDrive/Desktop/VHDL_Part2/HW_Section10p4/rom_16x8_sync.vhd|
+Z11 !s107 C:/Users/austi/OneDrive/Desktop/VHDL_Part2/HW_Section10p4/rom_16x8_sync.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Arom_16x8_sync_arch
+R1
+R2
+R3
+Z14 DEx4 work 13 rom_16x8_sync 0 22 XDahWdN8TFMNQ84DJ`Oim2
+!i122 3
+l34
+L11 47
+VT0EV5>NC:9CmT7:YaJ_XH0
+!s100 :8AmZB5CAHz5z[]BO:;]<2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Erom_16x8_sync_tb
+Z15 w1654800105
+R2
+R3
+!i122 0
+R4
+Z16 8C:/Users/austi/OneDrive/Desktop/VHDL_Part2/HW_Section10p4/rom_16x8_sync_TB.vhd
+Z17 FC:/Users/austi/OneDrive/Desktop/VHDL_Part2/HW_Section10p4/rom_16x8_sync_TB.vhd
+l0
+L4 1
+V^WYOf^G@>LKK1]^`]K]b03
+!s100 DCGZ51^oIHA01g_jmQF>=0
+R7
+32
+Z18 !s110 1654801838
+!i10b 1
+Z19 !s108 1654801838.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/OneDrive/Desktop/VHDL_Part2/HW_Section10p4/rom_16x8_sync_TB.vhd|
+Z21 !s107 C:/Users/austi/OneDrive/Desktop/VHDL_Part2/HW_Section10p4/rom_16x8_sync_TB.vhd|
+!i113 1
+R12
+R13
+Arom_16x8_sync_tb_arch
+R2
+R3
+DEx4 work 16 rom_16x8_sync_tb 0 22 ^WYOf^G@>LKK1]^`]K]b03
+!i122 0
+l19
+L7 45
+V<5LZ1<zNGRYXMj<z]Vi3^2
+!s100 ML?<keSg^a<j;;Z2XJJXf2
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13

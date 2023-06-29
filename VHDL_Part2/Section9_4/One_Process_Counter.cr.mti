@@ -1,0 +1,19 @@
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_4/Counter_16bit_UpDown.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_4/Counter_16bit_UpDown.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Counter_16bit_UpDown
+-- Compiling architecture Counter_16bit_UpDown_arch of Counter_16bit_UpDown
+
+} {} {}} C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_4/Counter_16bit_UpDown_TB.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Section9_4/Counter_16bit_UpDown_TB.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Counter_16bit_UpDown_TB
+-- Compiling architecture Counter_16bit_UpDown_TB_arch of Counter_16bit_UpDown_TB
+
+} {} {}}

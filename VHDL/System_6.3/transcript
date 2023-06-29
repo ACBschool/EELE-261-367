@@ -1,0 +1,14 @@
+# Compile of mux_8to1.vhd failed with 1 errors.
+# Compile of mux_8to1_TB.vhd was successful.
+# Compile of mux_8to1.vhd was successful.
+vsim work.mux_8to1_tb
+# vsim work.mux_8to1_tb 
+# Start time: 20:46:22 on Oct 27,2020
+# Loading std.standard
+# Loading work.mux_8to1_tb(mux_8to1_tb_arch)
+# Loading work.mux_8to1(mux_8to1_arch)
+add wave sim:/mux_8to1_tb/*
+run
+quit -sim
+# End time: 20:51:02 on Oct 27,2020, Elapsed time: 0:04:40
+# Errors: 0, Warnings: 8

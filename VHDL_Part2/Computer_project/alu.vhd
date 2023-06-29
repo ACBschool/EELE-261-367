@@ -1,0 +1,252 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+
+entity alu is
+	port ( BUS1  : in std_logic_vector(7 downto 0);
+	       B     : in std_logic_vector(7 downto 0);
+	       ALU_Sel : in std_logic_vector(2 downto 0);
+	       ALU_Result : out std_logic_vector(7 downto 0);
+	       NZVC 	: out std_logic_vector(3 downto 0));
+end entity;
+
+
+architecture alu_arch of alu is 
+
+	
+
+	begin
+
+		ALU_PROCESS : process( BUS1, B, ALU_Sel)
+		
+			variable Sum_uns : unsigned(8 downto 0);
+			variable Diff_uns : unsigned(8 downto 0);
+			variable AND_uns : unsigned(7 downto 0);
+			variable OR_uns  : unsigned(7 downto 0);
+			variable Inc_uns : unsigned(7 downto 0);
+			variable Dec_uns : unsigned(7 downto 0);
+		
+			begin
+			
+				if(ALU_Sel = "000") then  --addition
+
+					---Sum-Calculation-------------------------
+					Sum_uns := unsigned('0' & BUS1) + unsigned('0' & B);
+					ALU_Result <= std_logic_vector(Sum_uns(7 downto 0));
+				
+
+					-- Negative flag
+					NZVC(3) <= Sum_uns(7);
+
+					--Zero Flag
+					if(Sum_uns(7 downto 0) = x"00") then 
+						NZVC(2) <= '1';
+					else 
+						NZVC(2) <= '0';
+					end if;
+
+
+					-- Overflow flag V
+					if((BUS1(7) = '0' and B(7) = '0' and Sum_uns(7) = '1') or (BUS1(7) = '1' and B(7) = '1' and Sum_uns(7) = '0')) then
+						NZVC(1) <= '1';
+					else 
+						NZVC(1) <= '0';
+					end if;
+
+					--Carry flag
+					NZVC(0) <= Sum_uns(8);
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		
+				elsif(ALU_Sel = "001") then -- SUBTRACTION
+					
+					Diff_uns := unsigned('0' & BUS1) - unsigned('0' & B);
+					ALU_Result <= std_logic_vector(Diff_uns(7 downto 0));
+					
+					-- Negative flag
+					NZVC(3) <= Diff_uns(7);
+
+					--Zero Flag
+					if(Diff_uns(7 downto 0) = x"00") then 
+						NZVC(2) <= '1';
+					else 
+						NZVC(2) <= '0';
+					end if;
+
+
+					-- Overflow flag V
+					if((BUS1(7) = '0' and B(7) = '0' and Diff_uns(7) = '1') or (BUS1(7) = '1' and B(7) = '1' and Diff_uns(7) = '0')) then
+						NZVC(1) <= '1';
+					else 
+						NZVC(1) <= '0';
+					end if;
+
+					--Carry flag
+					NZVC(0) <= Diff_uns(8);
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+				elsif(ALU_Sel = "010") then -- AND_AB
+					AND_uns := unsigned(BUS1) and unsigned(B);
+					ALU_Result <= std_logic_vector(AND_uns(7 downto 0));
+
+					-- Negative flag
+					NZVC(3) <= AND_uns(7);
+
+					--Zero Flag
+					if(AND_uns(7 downto 0) = x"00") then 
+						NZVC(2) <= '1';
+					else 
+						NZVC(2) <= '0';
+					end if;
+
+
+					-- Overflow flag V
+					if((BUS1(7) = '0' and B(7) = '0' and AND_uns(7) = '1') or (BUS1(7) = '1' and B(7) = '1' and AND_uns(7) = '0')) then
+						NZVC(1) <= '1';
+					else 
+						NZVC(1) <= '0';
+					end if;
+
+					--Carry flag
+					NZVC(0) <= '0';
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+				elsif(ALU_Sel = "011") then -- OR_AB
+					OR_uns := unsigned(BUS1) or unsigned(B);
+					ALU_Result <= std_logic_vector(OR_uns(7 downto 0));
+
+					-- Negative flag
+					NZVC(3) <= OR_uns(7);
+
+					--Zero Flag
+					if(OR_uns(7 downto 0) = x"00") then 
+						NZVC(2) <= '1';
+					else 
+						NZVC(2) <= '0';
+					end if;
+
+
+					-- Overflow flag V
+					if((BUS1(7) = '0' and B(7) = '0' and OR_uns(7) = '1') or (BUS1(7) = '1' and B(7) = '1' and OR_uns(7) = '0')) then
+						NZVC(1) <= '1';
+					else 
+						NZVC(1) <= '0';
+					end if;
+
+					--Carry flag
+					NZVC(0) <= '0';
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+				elsif(ALU_Sel = "100") then -- INCA
+					Inc_uns := unsigned(BUS1) + x"01";
+					ALU_Result <= std_logic_vector(Inc_uns(7 downto 0));
+
+					-- Negative flag
+					NZVC(3) <= Inc_uns(7);
+
+					--Zero Flag
+					if(Inc_uns(7 downto 0) = x"00") then 
+						NZVC(2) <= '1';
+					else 
+						NZVC(2) <= '0';
+					end if;
+
+
+					-- Overflow flag V
+					if((BUS1(7) = '0' and B(7) = '0' and Inc_uns(7) = '1') or (BUS1(7) = '1' and B(7) = '1' and Inc_uns(7) = '0')) then
+						NZVC(1) <= '1';
+					else 
+						NZVC(1) <= '0';
+					end if;
+
+					--Carry flag
+					NZVC(0) <= '0'; --Inc_uns(8);
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+				elsif(ALU_Sel = "101") then -- INCB
+					Inc_uns := unsigned(B) + x"01";
+					ALU_Result <= std_logic_vector(Inc_uns(7 downto 0));
+
+					-- Negative flag
+					NZVC(3) <= Inc_uns(7);
+
+					--Zero Flag
+					if(Inc_uns(7 downto 0) = x"00") then 
+						NZVC(2) <= '1';
+					else 
+						NZVC(2) <= '0';
+					end if;
+
+
+					-- Overflow flag V
+					if((BUS1(7) = '0' and B(7) = '0' and Inc_uns(7) = '1') or (BUS1(7) = '1' and B(7) = '1' and Inc_uns(7) = '0')) then
+						NZVC(1) <= '1';
+					else 
+						NZVC(1) <= '0';
+					end if;
+
+					--Carry flag
+					NZVC(0) <= '0'; --Inc_uns(8);
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+				elsif(ALU_Sel = "110") then -- DECA
+					Dec_uns := unsigned(BUS1) - x"01";
+					ALU_Result <= std_logic_vector(Dec_uns(7 downto 0));
+
+					-- Negative flag
+					NZVC(3) <= Dec_uns(7);
+
+					--Zero Flag
+					if(Dec_uns(7 downto 0) = x"00") then 
+						NZVC(2) <= '1';
+					else 
+						NZVC(2) <= '0';
+					end if;
+
+
+					-- Overflow flag V
+					if((BUS1(7) = '0' and B(7) = '0' and Dec_uns(7) = '1') or (BUS1(7) = '1' and B(7) = '1' and Dec_uns(7) = '0')) then
+						NZVC(1) <= '1';
+					else 
+						NZVC(1) <= '0';
+					end if;
+
+					--Carry flag
+					NZVC(0) <= '0'; --Dec_uns(8);
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+				elsif(ALU_Sel = "111") then -- DECB
+					Dec_uns := unsigned(B) - x"01";
+					ALU_Result <= std_logic_vector(Dec_uns(7 downto 0));
+
+					-- Negative flag
+					NZVC(3) <= Dec_uns(7);
+
+					--Zero Flag
+					if(Dec_uns(7 downto 0) = x"00") then 
+						NZVC(2) <= '1';
+					else 
+						NZVC(2) <= '0';
+					end if;
+
+
+					-- Overflow flag V
+					if((BUS1(7) = '0' and B(7) = '0' and Dec_uns(7) = '1') or (BUS1(7) = '1' and B(7) = '1' and Dec_uns(7) = '0')) then
+						NZVC(1) <= '1';
+					else 
+						NZVC(1) <= '0';
+					end if;
+
+					--Carry flag
+					NZVC(0) <= '0';--Dec_uns(8);
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+				else 
+					ALU_Result <= "--------";
+
+				end if; 
+
+		end process;
+
+
+end architecture;

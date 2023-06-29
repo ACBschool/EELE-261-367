@@ -1,0 +1,85 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/austi/Desktop/VHDL/System_6.2
+Emux_8to1
+Z0 w1603853157
+!i122 1
+Z1 dC:/Users/austi/Desktop/VHDL/System_6.3
+Z2 8C:/Users/austi/Desktop/VHDL/System_6.3/mux_8to1.vhd
+Z3 FC:/Users/austi/Desktop/VHDL/System_6.3/mux_8to1.vhd
+l0
+L1 1
+VUR=Y=omT2@^`KM7B@V1Il2
+!s100 aVkjD>jKzcXTOgkB0K5lf2
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1603853170
+!i10b 1
+Z6 !s108 1603853170.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/Desktop/VHDL/System_6.3/mux_8to1.vhd|
+!s107 C:/Users/austi/Desktop/VHDL/System_6.3/mux_8to1.vhd|
+!i113 1
+Z8 o-work work -2002 -explicit
+Z9 tExplicit 1 CvgOpt 0
+Amux_8to1_arch
+DEx4 work 8 mux_8to1 0 22 UR=Y=omT2@^`KM7B@V1Il2
+!i122 1
+l8
+L7 11
+V<YCcOXS4TMdIgP<R[9Gei3
+!s100 RO0;NII30fHNP=mdj9]P13
+R4
+32
+R5
+!i10b 1
+R6
+R7
+Z10 !s107 C:/Users/austi/Desktop/VHDL/System_6.3/mux_8to1.vhd|
+!i113 1
+R8
+R9
+Emux_8to1_tb
+Z11 w1603852393
+!i122 0
+R1
+Z12 8C:/Users/austi/Desktop/VHDL/System_6.3/mux_8to1_TB.vhd
+Z13 FC:/Users/austi/Desktop/VHDL/System_6.3/mux_8to1_TB.vhd
+l0
+L1 1
+VD`1?UA7dk6VjYDzXKab5]2
+!s100 9nNY;dQk5l@DoMJ?KP:862
+R4
+32
+Z14 !s110 1603853105
+!i10b 1
+Z15 !s108 1603853104.000000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/Desktop/VHDL/System_6.3/mux_8to1_TB.vhd|
+Z17 !s107 C:/Users/austi/Desktop/VHDL/System_6.3/mux_8to1_TB.vhd|
+!i113 1
+R8
+R9
+Amux_8to1_tb_arch
+DEx4 work 11 mux_8to1_tb 0 22 D`1?UA7dk6VjYDzXKab5]2
+!i122 0
+l21
+L4 81
+VnmU@?P@3d9@Ak7;O[S5O]3
+!s100 ;Na1hJ?ImZXMSFO5>;Y_j2
+R4
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R8
+R9

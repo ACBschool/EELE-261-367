@@ -1,0 +1,75 @@
+# Compile of DFF_TB.vhd failed with 1 errors.
+# Compile of DFF_TB.vhd failed with 1 errors.
+# Compile of DFF_TB.vhd was successful.
+# Compile of DFF_TB.vhd was successful.
+# Compile of DFF_TB.vhd was successful.
+# Compile of DFF_TB.vhd was successful.
+# Compile of DFF_TB.vhd was successful.
+# Compile of DFF_TB.vhd was successful.
+# Compile of DFF.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of DFF.vhd failed with 5 errors.
+# Compile of DFF.vhd was successful.
+# Compile of DFF_TB.vhd was successful.
+# Compile of DFF.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.dff_tb
+# vsim work.dff_tb 
+# Start time: 21:36:41 on May 20,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.dff_tb(dff_tb_arch)
+# Loading work.dff(dff_arch)
+add wave  \
+sim:/dff_tb/Reset_TB \
+sim:/dff_tb/Clock_TB \
+sim:/dff_tb/D_TB \
+sim:/dff_tb/Q_TB
+run
+quit -sim
+# End time: 21:39:01 on May 20,2022, Elapsed time: 0:02:20
+# Errors: 0, Warnings: 16
+# Compile of DFF_TB.vhd was successful.
+vsim work.dff_tb
+# vsim work.dff_tb 
+# Start time: 21:39:12 on May 20,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.dff_tb(dff_tb_arch)
+# Loading work.dff(dff_arch)
+add wave sim:/dff_tb/*
+run
+quit -sim
+# End time: 21:42:40 on May 20,2022, Elapsed time: 0:03:28
+# Errors: 0, Warnings: 2
+# Compile of DFF_TB.vhd was successful.
+# Compile of DFF_TB.vhd was successful.
+vsim work.dff_tb
+# vsim work.dff_tb 
+# Start time: 21:44:58 on May 20,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.dff_tb(dff_tb_arch)
+# Loading work.dff(dff_arch)
+add wave sim:/dff_tb/*
+run
+quit -sim
+# End time: 21:46:02 on May 20,2022, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 3
+# Compile of DFF_TB.vhd was successful.
+vsim work.dff_tb
+# vsim work.dff_tb 
+# Start time: 21:46:10 on May 20,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.dff_tb(dff_tb_arch)
+# Loading work.dff(dff_arch)
+add wave sim:/dff_tb/*
+run
+quit -sim
+# End time: 21:47:06 on May 20,2022, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 2

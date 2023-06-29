@@ -1,0 +1,21 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity twos_comp_decoder is 
+	port(TWOS_COMP_IN		: in std_logic_vector(3 downto 0);
+		  MAG_OUT			: out std_logic_vector(6 downto 0);
+		  SIGN_OUT			: out std_logic_vector(6 downto 0));
+end entity;
+
+
+
+architecture twos_comp_decoder_arch of twos_comp_decoder is 
+
+
+	begin
+	
+	
+	
+	
+end architecture;

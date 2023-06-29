@@ -1,0 +1,109 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity FSM is
+ port (Clock, Reset	: in std_logic;
+       Press		: in std_logic;
+       Open_CW, Close_CCW: out std_logic);
+end entity;
+
+
+architecture FSM_arch of FSM is
+
+ -- user defined enumerated types instead of state encoding
+-- type State_Type is (w_closed, w_open);
+--
+-- signal current_state, next_state : State_Type;	-- fully synthesizable logic
+
+subtype State_type is std_logic;	-- defines a subtype and can have the values of std_logic
+constant w_open : State_type := '0';
+constant w_closed : State_type := '1';
+signa; current_state, next_state : State_type;
+
+
+  begin 
+   
+   STATE_MEMORY : process (Clock, Reset)
+    
+    begin
+     
+     if (Reset = '0') then	-- what is the initial state of the FSM?
+      
+      current_state <= w_closed;
+
+     elsif (rising_edge(Clock)) then
+
+      current_state <= next_state;
+
+     end if;
+   end process;
+
+
+   NEXT_STATE_LOGIC : process (current_state, Press)
+
+    begin
+    
+     case(current_state) is
+  
+      when w_closed => if(Press = '1') then
+			next_state <= w_open;
+		       else
+			next_state <= w_closed;
+		       end if;
+
+      when w_open => if (Press = '1') then
+		  
+    			next_state <= w_closed;
+		     else
+			next_state <= w_open;
+		     end if;
+
+      when others => next_state <= w_closed;
+
+     end case;
+
+   end process;
+
+
+
+   OUTPUT_LOGIC : process (Press, current_state)
+
+    begin
+
+     case(current_state) is
+
+      when w_closed => if(Press = '1') then
+    			Open_CW <= '1'; Close_CCW <= '0';
+		       else
+			Open_CW <= '0'; Close_CCW <= '0';
+		       end if;
+
+      when w_open => if (Press = '1') then
+		  
+    			Open_CW <= '0'; Close_CCW <= '1';
+		     else
+			Open_CW <= '0'; Close_CCW <= '0';
+		     end if;
+
+      when others => Open_CW <= '0'; Close_CCW <= '0';
+
+     end case;
+
+   end process;
+
+
+
+
+
+
+
+end architecture;
+
+
+
+
+
+
+      
+      
+      

@@ -1,0 +1,38 @@
+# Compile of counter_3bit_binary_up_down_TB.vhd was successful.
+# Compile of dflipflop.vhd was successful.
+# Compile of counter_3bit_binary_up_down.vhd failed with 1 errors.
+# Compile of counter_3bit_binary_up_down.vhd failed with 1 errors.
+# Compile of counter_3bit_binary_up_down.vhd failed with 1 errors.
+# Compile of counter_3bit_binary_up_down.vhd was successful.
+vsim work.counter_3bit_binary_up_down_tb
+# vsim work.counter_3bit_binary_up_down_tb 
+# Start time: 14:26:45 on Nov 15,2020
+# Loading std.standard
+# Loading work.counter_3bit_binary_up_down_tb(counter_3bit_binary_up_down_tb_arch)
+# Loading work.counter_3bit_binary_up_down(counter_3bit_binary_up_down_arch)
+# Loading work.dflipflop(dflipflop_arch)
+add wave -position end  sim:/counter_3bit_binary_up_down_tb/Clock_TB
+add wave -position end  sim:/counter_3bit_binary_up_down_tb/Reset_TB
+add wave -position end  sim:/counter_3bit_binary_up_down_tb/UP_TB
+add wave -position end  sim:/counter_3bit_binary_up_down_tb/Count_TB
+add wave sim:/counter_3bit_binary_up_down_tb/*
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+restart
+run
+restart
+run
+add wave -position end  sim:/counter_3bit_binary_up_down_tb/Count_TB
+add wave -position end  sim:/counter_3bit_binary_up_down_tb/t_clk_per
+restart
+run
+add wave -position end  sim:/counter_3bit_binary_up_down_tb/Count_TB
+restart
+run
+restart
+run
+quit -sim
+# End time: 14:39:51 on Nov 15,2020, Elapsed time: 0:13:06
+# Errors: 0, Warnings: 1

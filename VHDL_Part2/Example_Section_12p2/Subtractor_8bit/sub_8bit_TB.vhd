@@ -1,0 +1,34 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity sub_8bit_TB is
+end entity;
+
+architecture sub_8bit_TB_arch of sub_8bit_TB is 
+
+	component sub_8bit 
+		port(A, B	: in std_logic_vector(7 downto 0);
+		     Diff	: out std_logic_vector(7 downto 0);
+		     Borrow 	: out std_logic);
+	end component;
+
+	signal A_TB, B_TB, Diff_TB : std_logic_vector(7 downto 0);
+	signal Borrow_TB	: std_logic;
+
+
+	begin
+
+		DUT : sub_8bit port map (A_TB, B_TB, Diff_TB, Borrow_TB);
+
+		STIM : process
+			begin
+				for i in 0 to 255 loop
+					for j in 0 to 255 loop
+						A_TB <= std_logic_vector(to_unsigned(i,8));
+						B_TB <= std_logic_vector(to_unsigned(j,8));
+						wait for 50 ns;
+					end loop;
+				end loop;
+		end process;
+end architecture;

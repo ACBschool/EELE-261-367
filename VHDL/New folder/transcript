@@ -1,0 +1,43 @@
+# Compile of SourceAND3.vhd was successful.
+# Compile of SystemAND3_TB.vhd failed with 1 errors.
+# Compile of SystemAND3_TB.vhd failed with 1 errors.
+# Compile of SystemAND3_TB.vhd was successful.
+vsim work.systemand3_tb
+# vsim work.systemand3_tb 
+# Start time: 16:44:31 on May 15,2022
+# Loading std.standard
+# Loading work.systemand3_tb(systemand3_tb_arch)
+# ** Warning: (vsim-3473) Component instance "DUT : SystemAND3" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /systemand3_tb File: C:/Users/austi/OneDrive/Desktop/VHDL/New folder/SystemAND3_TB.vhd
+add wave sim:/systemand3_tb/*
+run
+# Compile of SourceAND3.vhd was successful.
+vsim work.systemand3_tb
+# End time: 16:49:13 on May 15,2022, Elapsed time: 0:04:42
+# Errors: 0, Warnings: 13
+# vsim work.systemand3_tb 
+# Start time: 16:49:13 on May 15,2022
+# Loading std.standard
+# Loading work.systemand3_tb(systemand3_tb_arch)
+# ** Warning: (vsim-3473) Component instance "DUT : SystemAND3" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /systemand3_tb File: C:/Users/austi/OneDrive/Desktop/VHDL/New folder/SystemAND3_TB.vhd
+vsim work.systemand3_tb
+# End time: 16:50:22 on May 15,2022, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 2
+# vsim work.systemand3_tb 
+# Start time: 16:50:22 on May 15,2022
+# Loading std.standard
+# Loading work.systemand3_tb(systemand3_tb_arch)
+# ** Warning: (vsim-3473) Component instance "DUT : SystemAND3" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /systemand3_tb File: C:/Users/austi/OneDrive/Desktop/VHDL/New folder/SystemAND3_TB.vhd
+add wave  \
+sim:/systemand3_tb/A_TB \
+sim:/systemand3_tb/B_TB \
+sim:/systemand3_tb/C_TB \
+sim:/systemand3_tb/F_TB
+run
+run
+run
+# End time: 16:52:22 on May 15,2022, Elapsed time: 0:02:00
+# Errors: 0, Warnings: 2
+# Closing project C:/Users/austi/OneDrive/Desktop/VHDL/New folder/AND3.mpf

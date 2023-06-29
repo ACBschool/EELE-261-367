@@ -1,0 +1,14 @@
+# Compile of demux_1to8.vhd failed with 1 errors.
+# Compile of demux_1to8.vhd was successful.
+# Compile of demux_1to8_TB.vhd was successful.
+vsim work.demux_1to8_tb
+# vsim work.demux_1to8_tb 
+# Start time: 21:11:28 on Oct 27,2020
+# Loading std.standard
+# Loading work.demux_1to8_tb(demux_1to8_tb_arch)
+# Loading work.demux_1to8(demux_1to8_arch)
+add wave sim:/demux_1to8_tb/*
+run
+quit -sim
+# End time: 21:43:49 on Oct 27,2020, Elapsed time: 0:32:21
+# Errors: 0, Warnings: 8

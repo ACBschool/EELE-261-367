@@ -1,0 +1,13 @@
+C:/Users/austi/Desktop/VHDL/Systemand3/PROJECT.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/austi/Desktop/VHDL/Systemand3/PROJECT.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity PROJECT
+-- Compiling architecture PROJECT_arch of PROJECT
+
+} {} {}} C:/Users/austi/Desktop/VHDL/Systemand3/SystemAND3_TB.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/austi/Desktop/VHDL/Systemand3/SystemAND3_TB.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity SystemAND3_TB
+-- Compiling architecture SystemAND3_TB_arch of SystemAND3_TB
+
+} {} {}}

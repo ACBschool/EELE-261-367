@@ -1,0 +1,85 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/austi/Desktop/VHDL/Systeml
+Eproject
+Z0 w1602876063
+!i122 0
+Z1 dC:/Users/austi/Desktop/VHDL/Systemand3
+Z2 8C:/Users/austi/Desktop/VHDL/Systemand3/PROJECT.vhd
+Z3 FC:/Users/austi/Desktop/VHDL/Systemand3/PROJECT.vhd
+l0
+L2 1
+Vh8bLi?9P3BQeC=M`bOGWB3
+!s100 n@=50fP34RMKzIW`oL[]g1
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1602876072
+!i10b 1
+Z6 !s108 1602876072.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/Desktop/VHDL/Systemand3/PROJECT.vhd|
+Z8 !s107 C:/Users/austi/Desktop/VHDL/Systemand3/PROJECT.vhd|
+!i113 1
+Z9 o-work work -2002 -explicit
+Z10 tExplicit 1 CvgOpt 0
+Aproject_arch
+DEx4 work 7 project 0 22 h8bLi?9P3BQeC=M`bOGWB3
+!i122 0
+l10
+L8 7
+Vl2zd`KjD`?]R1OHJ4Sii^0
+!s100 GdGleZ^1kObWb[::fR8[<1
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Esystemand3_tb
+Z11 w1602875859
+!i122 1
+R1
+Z12 8C:/Users/austi/Desktop/VHDL/Systemand3/SystemAND3_TB.vhd
+Z13 FC:/Users/austi/Desktop/VHDL/Systemand3/SystemAND3_TB.vhd
+l0
+L1 1
+V?aWi1YHS:[=]j<;_[mKdW2
+!s100 2n^D?GD1S0Dn4BT>SdnW21
+R4
+32
+Z14 !s110 1602876077
+!i10b 1
+Z15 !s108 1602876077.000000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/Desktop/VHDL/Systemand3/SystemAND3_TB.vhd|
+!s107 C:/Users/austi/Desktop/VHDL/Systemand3/SystemAND3_TB.vhd|
+!i113 1
+R9
+R10
+Asystemand3_tb_arch
+DEx4 work 13 systemand3_tb 0 22 ?aWi1YHS:[=]j<;_[mKdW2
+!i122 1
+l19
+L4 38
+VLiCBRKAjoCY7MfR<BVZoe0
+!s100 OTWVd]K`hLEe^SF4O[?D82
+R4
+32
+R14
+!i10b 1
+R15
+R16
+Z17 !s107 C:/Users/austi/Desktop/VHDL/Systemand3/SystemAND3_TB.vhd|
+!i113 1
+R9
+R10

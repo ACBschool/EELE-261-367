@@ -1,0 +1,25 @@
+Quartus Prime Archive log --	C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p4_prec_clockdiv_n_bcd_counter/Lab_09p4_prec_clockdiv_n_bcd_counter_tmp_archive.qarlog
+
+Archive:	C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p4_prec_clockdiv_n_bcd_counter/Lab_09p4_prec_clockdiv_n_bcd_counter_tmp_archive.qar
+Date:		Thu Jun 09 13:44:52 2022
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p4_prec_clockdiv_n_bcd_counter/Lab_09p4_prec_clockdiv_n_bcd_counter.qpf
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p4_prec_clockdiv_n_bcd_counter/assignment_defaults.qdf
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p4_prec_clockdiv_n_bcd_counter/char_decoder.vhd
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p4_prec_clockdiv_n_bcd_counter/clock_div_2ton.vhd
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p4_prec_clockdiv_n_bcd_counter/clock_div_prec.vhd
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p4_prec_clockdiv_n_bcd_counter/dflipflop.vhd
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p4_prec_clockdiv_n_bcd_counter/top.qsf
+C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p4_prec_clockdiv_n_bcd_counter/top.vhd
+	======= Total: 8 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Thu Jun 09 13:44:54 2022
+Source archive file:	C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_09p4_prec_clockdiv_n_bcd_counter/Lab_09p4_prec_clockdiv_n_bcd_counter_tmp_archive.qar
+Archive was extracted into	C:/Users/austi/OneDrive/Desktop/VHDL_Part2/EELE_367_labs/Lab_10p1_ROM_memory/
+		 - successfully.

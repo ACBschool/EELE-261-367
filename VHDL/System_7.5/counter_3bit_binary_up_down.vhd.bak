@@ -1,0 +1,19 @@
+entity counter_3bit_binary_up_down is 
+	port (Clock : in  bit;
+	      Reset : in  bit;
+	      Up    : in  bit;
+	      Count : out bit_vector(2 downto 0));
+end entity;
+
+architecture counter_3bit_binary_up_down_arch of counter_3bit_binary_up_down is 
+
+	component Dflipflop
+		port (Clock	: in bit;
+		      Reset	: in bit;
+		      D		: in bit;
+		      Q, Qn	: out bit);
+	end component;
+
+begin 
+
+

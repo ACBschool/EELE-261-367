@@ -1,0 +1,13 @@
+C:/Users/austi/Desktop/VHDL/SystemK/SystemK_TB.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/austi/Desktop/VHDL/SystemK/SystemK_TB.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity SystemK_TB
+-- Compiling architecture SystemK_TB_arch of SystemK_TB
+
+} {} {}} C:/Users/austi/Desktop/VHDL/SystemK/SystemK.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/austi/Desktop/VHDL/SystemK/SystemK.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity SystemK
+-- Compiling architecture SystemK_arch of SystemK
+
+} {} {}}

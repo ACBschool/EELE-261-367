@@ -1,0 +1,15 @@
+# Compile of SystemJ.vhd was successful.
+# Compile of SystemJ_TB.vhd was successful.
+vsim work.systemj_tb
+# vsim work.systemj_tb 
+# Start time: 14:45:32 on Oct 16,2020
+# Loading std.standard
+# Loading work.systemj_tb(systemj_tb_arch)
+# Loading work.systemj(systemj_arch)
+add wave sim:/systemj_tb/*
+run
+quit -sim
+# End time: 14:46:45 on Oct 16,2020, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 7
+# reading C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini
+quit

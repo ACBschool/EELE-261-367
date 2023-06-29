@@ -1,0 +1,1409 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D30|Qn'
+Slack : -1.773
+TNS   : -3.508
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D21|Qn'
+Slack : -1.145
+TNS   : -2.289
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D20|Qn'
+Slack : -1.130
+TNS   : -2.179
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D19|Qn'
+Slack : -1.112
+TNS   : -2.108
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D15|Qn'
+Slack : -1.025
+TNS   : -2.014
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D31|Qn'
+Slack : -0.959
+TNS   : -1.875
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D17|Qn'
+Slack : -0.951
+TNS   : -1.694
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D23|Qn'
+Slack : -0.920
+TNS   : -1.798
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D13|Qn'
+Slack : -0.920
+TNS   : -1.793
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D22|Qn'
+Slack : -0.888
+TNS   : -1.696
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D29|Qn'
+Slack : -0.859
+TNS   : -1.699
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D25|Qn'
+Slack : -0.844
+TNS   : -1.579
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D18|Qn'
+Slack : -0.823
+TNS   : -1.642
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D16|Qn'
+Slack : -0.823
+TNS   : -1.605
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D27|Qn'
+Slack : -0.807
+TNS   : -1.607
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D28|Qn'
+Slack : -0.766
+TNS   : -1.498
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D1|Qn'
+Slack : -0.687
+TNS   : -0.687
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D24|Qn'
+Slack : -0.681
+TNS   : -1.317
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D14|Qn'
+Slack : -0.676
+TNS   : -1.307
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D26|Qn'
+Slack : -0.607
+TNS   : -1.203
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D3|Qn'
+Slack : -0.483
+TNS   : -0.483
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D11|Qn'
+Slack : -0.458
+TNS   : -0.458
+
+Type  : Slow 1200mV 85C Model Setup 'Clock_50'
+Slack : -0.409
+TNS   : -0.409
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D34|Qn'
+Slack : -0.361
+TNS   : -0.503
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D32|Qn'
+Slack : -0.357
+TNS   : -0.483
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D12|Qn'
+Slack : -0.354
+TNS   : -0.354
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D7|Qn'
+Slack : -0.352
+TNS   : -0.352
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D0|Qn'
+Slack : -0.324
+TNS   : -0.324
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D2|Qn'
+Slack : -0.297
+TNS   : -0.297
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D10|Qn'
+Slack : -0.292
+TNS   : -0.292
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D4|Qn'
+Slack : -0.291
+TNS   : -0.291
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D35|Qn'
+Slack : -0.288
+TNS   : -0.553
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D6|Qn'
+Slack : -0.288
+TNS   : -0.288
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D8|Qn'
+Slack : -0.285
+TNS   : -0.285
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D33|Qn'
+Slack : -0.263
+TNS   : -0.471
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D9|Qn'
+Slack : -0.222
+TNS   : -0.222
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D5|Qn'
+Slack : -0.221
+TNS   : -0.221
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D21|Q'
+Slack : -0.077
+TNS   : -0.129
+
+Type  : Slow 1200mV 85C Model Setup 'dflipflop:D36|Qn'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D9|Qn'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D5|Qn'
+Slack : 0.344
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D36|Qn'
+Slack : 0.371
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D21|Q'
+Slack : 0.381
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D34|Qn'
+Slack : 0.399
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D2|Qn'
+Slack : 0.409
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D6|Qn'
+Slack : 0.409
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Clock_50'
+Slack : 0.412
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D10|Qn'
+Slack : 0.413
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D32|Qn'
+Slack : 0.426
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D0|Qn'
+Slack : 0.433
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D12|Qn'
+Slack : 0.444
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D7|Qn'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D33|Qn'
+Slack : 0.469
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D8|Qn'
+Slack : 0.476
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D4|Qn'
+Slack : 0.482
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D35|Qn'
+Slack : 0.511
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D11|Qn'
+Slack : 0.568
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D3|Qn'
+Slack : 0.628
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D26|Qn'
+Slack : 0.663
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D14|Qn'
+Slack : 0.718
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D24|Qn'
+Slack : 0.725
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D18|Qn'
+Slack : 0.754
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D1|Qn'
+Slack : 0.756
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D28|Qn'
+Slack : 0.783
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D25|Qn'
+Slack : 0.788
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D17|Qn'
+Slack : 0.803
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D27|Qn'
+Slack : 0.805
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D23|Qn'
+Slack : 0.836
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D16|Qn'
+Slack : 0.859
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D22|Qn'
+Slack : 0.880
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D13|Qn'
+Slack : 0.891
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D29|Qn'
+Slack : 0.918
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D31|Qn'
+Slack : 0.957
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D15|Qn'
+Slack : 0.960
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D19|Qn'
+Slack : 0.988
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D21|Qn'
+Slack : 1.002
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D20|Qn'
+Slack : 1.055
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dflipflop:D30|Qn'
+Slack : 1.493
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clock_50'
+Slack : -3.000
+TNS   : -4.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D21|Q'
+Slack : -1.222
+TNS   : -12.220
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D13|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D14|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D15|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D16|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D17|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D18|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D19|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D20|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D21|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D22|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D23|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D24|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D25|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D26|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D27|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D28|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D29|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D30|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D31|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D32|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D33|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D34|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D35|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D0|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D10|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D11|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D12|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D1|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D2|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D36|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D3|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D4|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D5|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D6|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D7|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D8|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dflipflop:D9|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D30|Qn'
+Slack : -1.605
+TNS   : -3.168
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D21|Qn'
+Slack : -1.016
+TNS   : -2.030
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D20|Qn'
+Slack : -1.016
+TNS   : -1.962
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D19|Qn'
+Slack : -0.995
+TNS   : -1.886
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D15|Qn'
+Slack : -0.894
+TNS   : -1.754
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D31|Qn'
+Slack : -0.837
+TNS   : -1.629
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D17|Qn'
+Slack : -0.817
+TNS   : -1.446
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D23|Qn'
+Slack : -0.808
+TNS   : -1.570
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D13|Qn'
+Slack : -0.805
+TNS   : -1.568
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D22|Qn'
+Slack : -0.765
+TNS   : -1.450
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D29|Qn'
+Slack : -0.757
+TNS   : -1.498
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D25|Qn'
+Slack : -0.727
+TNS   : -1.355
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D18|Qn'
+Slack : -0.716
+TNS   : -1.429
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D16|Qn'
+Slack : -0.714
+TNS   : -1.402
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D27|Qn'
+Slack : -0.704
+TNS   : -1.404
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D28|Qn'
+Slack : -0.677
+TNS   : -1.320
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D1|Qn'
+Slack : -0.599
+TNS   : -0.599
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D14|Qn'
+Slack : -0.586
+TNS   : -1.133
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D24|Qn'
+Slack : -0.582
+TNS   : -1.120
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D26|Qn'
+Slack : -0.514
+TNS   : -1.025
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D3|Qn'
+Slack : -0.415
+TNS   : -0.415
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D11|Qn'
+Slack : -0.379
+TNS   : -0.379
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D7|Qn'
+Slack : -0.292
+TNS   : -0.292
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D34|Qn'
+Slack : -0.280
+TNS   : -0.368
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D12|Qn'
+Slack : -0.279
+TNS   : -0.279
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D32|Qn'
+Slack : -0.275
+TNS   : -0.349
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D0|Qn'
+Slack : -0.247
+TNS   : -0.247
+
+Type  : Slow 1200mV 0C Model Setup 'Clock_50'
+Slack : -0.236
+TNS   : -0.236
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D35|Qn'
+Slack : -0.225
+TNS   : -0.424
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D2|Qn'
+Slack : -0.222
+TNS   : -0.222
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D4|Qn'
+Slack : -0.222
+TNS   : -0.222
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D10|Qn'
+Slack : -0.216
+TNS   : -0.216
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D8|Qn'
+Slack : -0.216
+TNS   : -0.216
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D6|Qn'
+Slack : -0.215
+TNS   : -0.215
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D33|Qn'
+Slack : -0.210
+TNS   : -0.374
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D5|Qn'
+Slack : -0.158
+TNS   : -0.158
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D9|Qn'
+Slack : -0.158
+TNS   : -0.158
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D21|Q'
+Slack : 0.019
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'dflipflop:D36|Qn'
+Slack : 0.397
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Clock_50'
+Slack : 0.283
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D5|Qn'
+Slack : 0.310
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D9|Qn'
+Slack : 0.310
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D36|Qn'
+Slack : 0.337
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D21|Q'
+Slack : 0.351
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D34|Qn'
+Slack : 0.364
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D6|Qn'
+Slack : 0.366
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D2|Qn'
+Slack : 0.367
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D10|Qn'
+Slack : 0.368
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D32|Qn'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D0|Qn'
+Slack : 0.389
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D12|Qn'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D7|Qn'
+Slack : 0.419
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D8|Qn'
+Slack : 0.427
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D4|Qn'
+Slack : 0.433
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D33|Qn'
+Slack : 0.438
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D35|Qn'
+Slack : 0.477
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D11|Qn'
+Slack : 0.526
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D26|Qn'
+Slack : 0.601
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D3|Qn'
+Slack : 0.602
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D24|Qn'
+Slack : 0.657
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D14|Qn'
+Slack : 0.661
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D18|Qn'
+Slack : 0.693
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D1|Qn'
+Slack : 0.710
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D25|Qn'
+Slack : 0.724
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D17|Qn'
+Slack : 0.728
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D28|Qn'
+Slack : 0.730
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D27|Qn'
+Slack : 0.741
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D23|Qn'
+Slack : 0.779
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D16|Qn'
+Slack : 0.786
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D22|Qn'
+Slack : 0.801
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D13|Qn'
+Slack : 0.823
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D29|Qn'
+Slack : 0.849
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D15|Qn'
+Slack : 0.882
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D31|Qn'
+Slack : 0.886
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D19|Qn'
+Slack : 0.916
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D21|Qn'
+Slack : 0.923
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D20|Qn'
+Slack : 0.995
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dflipflop:D30|Qn'
+Slack : 1.397
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clock_50'
+Slack : -3.000
+TNS   : -4.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D21|Q'
+Slack : -1.222
+TNS   : -12.220
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D13|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D14|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D15|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D16|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D17|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D18|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D19|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D20|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D21|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D22|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D23|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D24|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D25|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D26|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D27|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D28|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D29|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D30|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D31|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D32|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D33|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D34|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D35|Qn'
+Slack : -1.222
+TNS   : -2.444
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D0|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D10|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D11|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D12|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D1|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D2|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D36|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D3|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D4|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D5|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D6|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D7|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D8|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dflipflop:D9|Qn'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D30|Qn'
+Slack : -0.530
+TNS   : -1.035
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D20|Qn'
+Slack : -0.309
+TNS   : -0.555
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D19|Qn'
+Slack : -0.285
+TNS   : -0.498
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D21|Qn'
+Slack : -0.243
+TNS   : -0.486
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D15|Qn'
+Slack : -0.216
+TNS   : -0.404
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D31|Qn'
+Slack : -0.162
+TNS   : -0.289
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D17|Qn'
+Slack : -0.118
+TNS   : -0.133
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D23|Qn'
+Slack : -0.113
+TNS   : -0.199
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D16|Qn'
+Slack : -0.107
+TNS   : -0.198
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D29|Qn'
+Slack : -0.093
+TNS   : -0.176
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D22|Qn'
+Slack : -0.090
+TNS   : -0.150
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D13|Qn'
+Slack : -0.082
+TNS   : -0.141
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D27|Qn'
+Slack : -0.073
+TNS   : -0.142
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D18|Qn'
+Slack : -0.067
+TNS   : -0.132
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D25|Qn'
+Slack : -0.064
+TNS   : -0.064
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D28|Qn'
+Slack : -0.059
+TNS   : -0.075
+
+Type  : Fast 1200mV 0C Model Setup 'Clock_50'
+Slack : -0.030
+TNS   : -0.030
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D24|Qn'
+Slack : -0.024
+TNS   : -0.024
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D1|Qn'
+Slack : -0.010
+TNS   : -0.010
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D14|Qn'
+Slack : 0.024
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D26|Qn'
+Slack : 0.048
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D11|Qn'
+Slack : 0.076
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D3|Qn'
+Slack : 0.079
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D12|Qn'
+Slack : 0.104
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D34|Qn'
+Slack : 0.108
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D32|Qn'
+Slack : 0.109
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D0|Qn'
+Slack : 0.127
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D7|Qn'
+Slack : 0.133
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D4|Qn'
+Slack : 0.137
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D8|Qn'
+Slack : 0.139
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D2|Qn'
+Slack : 0.141
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D10|Qn'
+Slack : 0.143
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D6|Qn'
+Slack : 0.145
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D35|Qn'
+Slack : 0.161
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D33|Qn'
+Slack : 0.174
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D9|Qn'
+Slack : 0.178
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D5|Qn'
+Slack : 0.180
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D21|Q'
+Slack : 0.482
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dflipflop:D36|Qn'
+Slack : 0.693
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D9|Qn'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D5|Qn'
+Slack : 0.139
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D34|Qn'
+Slack : 0.154
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D7|Qn'
+Slack : 0.164
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D32|Qn'
+Slack : 0.168
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D36|Qn'
+Slack : 0.169
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D21|Q'
+Slack : 0.173
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D6|Qn'
+Slack : 0.174
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D2|Qn'
+Slack : 0.175
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D10|Qn'
+Slack : 0.176
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D33|Qn'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D0|Qn'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D12|Qn'
+Slack : 0.190
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D26|Qn'
+Slack : 0.191
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D35|Qn'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D8|Qn'
+Slack : 0.209
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D4|Qn'
+Slack : 0.211
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D14|Qn'
+Slack : 0.222
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D11|Qn'
+Slack : 0.225
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D3|Qn'
+Slack : 0.239
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D25|Qn'
+Slack : 0.252
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D18|Qn'
+Slack : 0.261
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D24|Qn'
+Slack : 0.264
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D28|Qn'
+Slack : 0.270
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D17|Qn'
+Slack : 0.271
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D27|Qn'
+Slack : 0.290
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Clock_50'
+Slack : 0.299
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D23|Qn'
+Slack : 0.299
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D1|Qn'
+Slack : 0.304
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D13|Qn'
+Slack : 0.310
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D22|Qn'
+Slack : 0.315
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D16|Qn'
+Slack : 0.349
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D29|Qn'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D31|Qn'
+Slack : 0.381
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D15|Qn'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D21|Qn'
+Slack : 0.410
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D19|Qn'
+Slack : 0.435
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D20|Qn'
+Slack : 0.472
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dflipflop:D30|Qn'
+Slack : 0.631
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clock_50'
+Slack : -3.000
+TNS   : -4.095
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D21|Q'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D13|Qn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D14|Qn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D15|Qn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D16|Qn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D17|Qn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D18|Qn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D19|Qn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D20|Qn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D21|Qn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D22|Qn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D23|Qn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D24|Qn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D25|Qn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D26|Qn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D27|Qn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D28|Qn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D29|Qn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D30|Qn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D31|Qn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D32|Qn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D33|Qn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D34|Qn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D35|Qn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D0|Qn'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D10|Qn'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D11|Qn'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D12|Qn'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D1|Qn'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D2|Qn'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D36|Qn'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D3|Qn'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D4|Qn'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D5|Qn'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D6|Qn'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D7|Qn'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D8|Qn'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dflipflop:D9|Qn'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

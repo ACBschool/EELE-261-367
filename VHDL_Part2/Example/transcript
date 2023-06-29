@@ -1,0 +1,30 @@
+# Compile of SystemAND3.vhd was successful.
+# Compile of SystemAND3_TB.vhd was successful.
+vsim work.systemand3_tb
+# vsim work.systemand3_tb 
+# Start time: 13:08:24 on May 17,2022
+# Loading std.standard
+# Loading work.systemand3_tb(systemand3_tb_arch)
+# Loading work.systemand3(systemand3_arch)
+# ** Warning: (vsim-3473) Component instance "U1 : INV1" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /systemand3_tb/DUT File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example/SystemAND3.vhd
+# ** Warning: (vsim-3473) Component instance "U2 : INV1" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /systemand3_tb/DUT File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example/SystemAND3.vhd
+# ** Warning: (vsim-3473) Component instance "U3 : INV1" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /systemand3_tb/DUT File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example/SystemAND3.vhd
+# ** Warning: (vsim-3473) Component instance "U4 : AND3" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /systemand3_tb/DUT File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example/SystemAND3.vhd
+# ** Warning: (vsim-3473) Component instance "U5 : AND3" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /systemand3_tb/DUT File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example/SystemAND3.vhd
+# ** Warning: (vsim-3473) Component instance "U6 : AND3" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /systemand3_tb/DUT File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example/SystemAND3.vhd
+# ** Warning: (vsim-3473) Component instance "U7 : OR3" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /systemand3_tb/DUT File: C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example/SystemAND3.vhd
+# ** Warning: (vsim-8684) No drivers exist on out port /systemand3_tb/DUT/F, and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /systemand3_tb/F_TB.
+add wave sim:/systemand3_tb/*
+run
+quit -sim
+# End time: 13:10:13 on May 17,2022, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 15

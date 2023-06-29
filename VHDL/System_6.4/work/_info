@@ -1,0 +1,85 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+Edemux_1to8
+Z0 w1603854674
+!i122 0
+Z1 dC:/Users/austi/Desktop/VHDL/System_6.4
+Z2 8C:/Users/austi/Desktop/VHDL/System_6.4/demux_1to8.vhd
+Z3 FC:/Users/austi/Desktop/VHDL/System_6.4/demux_1to8.vhd
+l0
+L1 1
+V4;_^LSF;Lh2VRIkFlIP;N2
+!s100 >>;nSM_TMSVZ>O62Xkihg0
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1603854678
+!i10b 1
+Z6 !s108 1603854678.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/Desktop/VHDL/System_6.4/demux_1to8.vhd|
+Z8 !s107 C:/Users/austi/Desktop/VHDL/System_6.4/demux_1to8.vhd|
+!i113 1
+Z9 o-work work -2002 -explicit
+Z10 tExplicit 1 CvgOpt 0
+Ademux_1to8_arch
+DEx4 work 10 demux_1to8 0 22 4;_^LSF;Lh2VRIkFlIP;N2
+!i122 0
+l8
+L7 19
+V6ZENlLkWj9`0_JLhkEXeB0
+!s100 G5QB;SZcGbK6S1<KkRgog3
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Edemux_1to8_tb
+Z11 w1603854060
+!i122 1
+R1
+Z12 8C:/Users/austi/Desktop/VHDL/System_6.4/demux_1to8_TB.vhd
+Z13 FC:/Users/austi/Desktop/VHDL/System_6.4/demux_1to8_TB.vhd
+l0
+L1 1
+Vj0jl<6];AZ:@QKiVQ>lJE1
+!s100 j?eEoP<N5L2h9DmJB:X0=2
+R4
+32
+Z14 !s110 1603854682
+!i10b 1
+Z15 !s108 1603854682.000000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/Desktop/VHDL/System_6.4/demux_1to8_TB.vhd|
+!s107 C:/Users/austi/Desktop/VHDL/System_6.4/demux_1to8_TB.vhd|
+!i113 1
+R9
+R10
+Ademux_1to8_tb_arch
+DEx4 work 13 demux_1to8_tb 0 22 j0jl<6];AZ:@QKiVQ>lJE1
+!i122 1
+l21
+L4 46
+V`U4d>;7=k_PCD[`^1T@]D2
+!s100 8nBP6aQJB095]P@jYg8HJ0
+R4
+32
+R14
+!i10b 1
+R15
+R16
+Z17 !s107 C:/Users/austi/Desktop/VHDL/System_6.4/demux_1to8_TB.vhd|
+!i113 1
+R9
+R10

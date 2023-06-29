@@ -1,0 +1,179 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example_Section_12p2/Subractor_4bit
+Efull_adder
+Z0 w1655528693
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+Z3 dC:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example_Section_12p2/Subtractor_8bit
+Z4 8C:/Users/austi/OneDrive/Desktop/VHDL_Part2/section12_1/full_adder.vhd
+Z5 FC:/Users/austi/OneDrive/Desktop/VHDL_Part2/section12_1/full_adder.vhd
+l0
+L4 1
+VgK`2Fkhej[eXa3[Z]_Emn3
+!s100 KABlKCO0jc=m5JiaJdif=1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1655559634
+!i10b 1
+Z8 !s108 1655559633.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/OneDrive/Desktop/VHDL_Part2/section12_1/full_adder.vhd|
+Z10 !s107 C:/Users/austi/OneDrive/Desktop/VHDL_Part2/section12_1/full_adder.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Afull_adder_arch
+R1
+R2
+DEx4 work 10 full_adder 0 22 gK`2Fkhej[eXa3[Z]_Emn3
+!i122 1
+l19
+L9 20
+V1kOo_eRE?nWUEZ5z5XzDG1
+!s100 6BfF9W>B4if@mYEUl1oDD0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ehalf_adder
+Z13 w1655528588
+R1
+R2
+!i122 0
+R3
+Z14 8C:/Users/austi/OneDrive/Desktop/VHDL_Part2/section12_1/half_adder.vhd
+Z15 FC:/Users/austi/OneDrive/Desktop/VHDL_Part2/section12_1/half_adder.vhd
+l0
+L4 1
+V1K[`m5]NHUHc:UJTWm<`J3
+!s100 CjkAHF0?BOCSk]hzRU4ji1
+R6
+32
+Z16 !s110 1655559633
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/OneDrive/Desktop/VHDL_Part2/section12_1/half_adder.vhd|
+Z18 !s107 C:/Users/austi/OneDrive/Desktop/VHDL_Part2/section12_1/half_adder.vhd|
+!i113 1
+R11
+R12
+Ahalf_adder_arch
+R1
+R2
+DEx4 work 10 half_adder 0 22 1K[`m5]NHUHc:UJTWm<`J3
+!i122 0
+l12
+L9 10
+VBFMdilaj600Xi8h277Hbl1
+!s100 ;Sg?hl1:Hi5;UHY[Vm[UL3
+R6
+32
+R16
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Esub_8bit
+Z19 w1655559834
+Z20 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+!i122 2
+R3
+Z21 8C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example_Section_12p2/Subtractor_8bit/sub_8bit.vhd
+Z22 FC:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example_Section_12p2/Subtractor_8bit/sub_8bit.vhd
+l0
+L6 1
+VU`zd6mNJ0`z=1E4mBT<0h0
+!s100 07NVF?MJEVbe@ZaDQ5:<E1
+R6
+32
+Z23 !s110 1655559841
+!i10b 1
+Z24 !s108 1655559841.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example_Section_12p2/Subtractor_8bit/sub_8bit.vhd|
+Z26 !s107 C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example_Section_12p2/Subtractor_8bit/sub_8bit.vhd|
+!i113 1
+R11
+R12
+Asub_8bit_arch
+R20
+R1
+R2
+DEx4 work 8 sub_8bit 0 22 U`zd6mNJ0`z=1E4mBT<0h0
+!i122 2
+l25
+L13 27
+VRUfk^;HN`TZAO0kAVA0Pl0
+!s100 T<iA3a4ZF=lI=N5_QMIIz1
+R6
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R11
+R12
+Esub_8bit_tb
+Z27 w1655559919
+R20
+R1
+R2
+!i122 4
+R3
+Z28 8C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example_Section_12p2/Subtractor_8bit/sub_8bit_TB.vhd
+Z29 FC:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example_Section_12p2/Subtractor_8bit/sub_8bit_TB.vhd
+l0
+L5 1
+VdjmcF2JOJ7L;m:=<f`MIT1
+!s100 ^MD<kYVe@7FRNGIbSPngL3
+R6
+32
+Z30 !s110 1655559924
+!i10b 1
+Z31 !s108 1655559924.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example_Section_12p2/Subtractor_8bit/sub_8bit_TB.vhd|
+Z33 !s107 C:/Users/austi/OneDrive/Desktop/VHDL_Part2/Example_Section_12p2/Subtractor_8bit/sub_8bit_TB.vhd|
+!i113 1
+R11
+R12
+Asub_8bit_tb_arch
+R20
+R1
+R2
+DEx4 work 11 sub_8bit_tb 0 22 djmcF2JOJ7L;m:=<f`MIT1
+!i122 4
+l20
+Z34 L8 27
+Vd;3kI;W5[[I=FTj??>Bno1
+!s100 mGBKK89@gia[[;43kZD=Y3
+R6
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R11
+R12

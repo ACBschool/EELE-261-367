@@ -1,0 +1,85 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+Esourceand3
+Z0 w1652654923
+!i122 4
+Z1 dC:/Users/austi/OneDrive/Desktop/VHDL/New folder
+Z2 8C:/Users/austi/OneDrive/Desktop/VHDL/New folder/SourceAND3.vhd
+Z3 FC:/Users/austi/OneDrive/Desktop/VHDL/New folder/SourceAND3.vhd
+l0
+L1 1
+V8^;^4cBkW_R;nCl4TTYKk1
+!s100 ^4za_emziCLV^IhKO2bYG3
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1652654942
+!i10b 1
+Z6 !s108 1652654942.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/OneDrive/Desktop/VHDL/New folder/SourceAND3.vhd|
+Z8 !s107 C:/Users/austi/OneDrive/Desktop/VHDL/New folder/SourceAND3.vhd|
+!i113 1
+Z9 o-work work -2002 -explicit
+Z10 tExplicit 1 CvgOpt 0
+Asourceand3_arch
+Z11 DEx4 work 10 sourceand3 0 22 8^;^4cBkW_R;nCl4TTYKk1
+!i122 4
+l8
+L6 7
+VfeEa;fh7T]1<PF9adDcd?2
+!s100 dMTc9JPDf41d6PBI?XDem1
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Esystemand3_tb
+Z12 w1652654633
+!i122 3
+R1
+Z13 8C:/Users/austi/OneDrive/Desktop/VHDL/New folder/SystemAND3_TB.vhd
+Z14 FC:/Users/austi/OneDrive/Desktop/VHDL/New folder/SystemAND3_TB.vhd
+l0
+L1 1
+V?aWi1YHS:[=]j<;_[mKdW2
+!s100 2n^D?GD1S0Dn4BT>SdnW21
+R4
+32
+Z15 !s110 1652654636
+!i10b 1
+Z16 !s108 1652654636.000000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/austi/OneDrive/Desktop/VHDL/New folder/SystemAND3_TB.vhd|
+Z18 !s107 C:/Users/austi/OneDrive/Desktop/VHDL/New folder/SystemAND3_TB.vhd|
+!i113 1
+R9
+R10
+Asystemand3_tb_arch
+DEx4 work 13 systemand3_tb 0 22 ?aWi1YHS:[=]j<;_[mKdW2
+!i122 3
+l19
+L4 38
+VLiCBRKAjoCY7MfR<BVZoe0
+!s100 OTWVd]K`hLEe^SF4O[?D82
+R4
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R9
+R10

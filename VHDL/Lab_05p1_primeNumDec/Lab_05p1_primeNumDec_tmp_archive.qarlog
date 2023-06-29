@@ -1,0 +1,21 @@
+Quartus Prime Archive log --	C:/Users/austi/Desktop/VHDL/Lab_05p1_primeNumDec/Lab_05p1_primeNumDec_tmp_archive.qarlog
+
+Archive:	C:/Users/austi/Desktop/VHDL/Lab_05p1_primeNumDec/Lab_05p1_primeNumDec_tmp_archive.qar
+Date:		Sun Nov 01 13:44:41 2020
+Quartus Prime		20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/austi/Desktop/VHDL/Lab_05p1_primeNumDec/Lab_05p1_primeNumDec.qpf
+C:/Users/austi/Desktop/VHDL/Lab_05p1_primeNumDec/top.qsf
+C:/Users/austi/Desktop/VHDL/Lab_05p1_primeNumDec/top.vhd
+c:/intelfpga_lite/20.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 4 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Sun Nov 01 13:44:43 2020
+Source archive file:	C:/Users/austi/Desktop/VHDL/Lab_05p1_primeNumDec/Lab_05p1_primeNumDec_tmp_archive.qar
+Archive was extracted into	C:/Users/austi/Desktop/VHDL/Lab_06p1_SevenSegDecoder/
+		 - successfully.
